@@ -72,6 +72,7 @@ kepeken kulupu esun Lulu.
 nasin sitelen ni:\
 li nasin palisa\
 li sitelen seli kiwen\
+li nasin nanpa\
 li nasin Oz'sWizard\
 li nasin TeX Gyre Bonum.
 
