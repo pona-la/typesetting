@@ -7,7 +7,7 @@
 // We use an A5 page size, as it's very close to the dimensions of the original book and offered by many printing companies.
 // TODO: add bleed so we can have images to the page edge
 // TODO: match margins to the original book
-#set page(width: 148mm, height: 210mm, margin: (inside: 18mm, outside: 15mm, bottom: 15mm, top: 15mm))
+#set page(width: 148mm, height: 210mm, margin: (inside: 22mm, outside: 22mm, bottom: 20mm, top: 27mm))
 
 // Basic Heading Setup
 // TODO: fully replace this with the full-page two-tone chapter headers
@@ -20,25 +20,36 @@
 // Per-character justification!
 #set par(justify: true, justification-limits: (tracking: (min: -0.01em, max: 0.02em)), linebreaks: "optimized")
 
-// An array of codes of ligatures for numbers 1-20 in typeface sitelen seli kiwen.
-// sitelen seli kiwen's handwritten fixed-width style is not a perfect fit for this book, but I'm as yet unaware of another font that includes awesome compressed number glyphs like this.
-#let nanpa = ("󱥳", "󱥮", "󿩀", "󿨿", "󱤭", "󿩂", "󿩄", "󿩆", "󿩈", "󿩉", "󿩊", "󿩋", "󿩌", "󿩎", "󿩏", "󿯋", "󿯈", "󿯊", "󿯉", "󿵩")
+// lowercase because we render it in smallcaps
+#let nanpa = ((20, "m"), (5, "l"), (2, "t"), (1, "u"))
 
 // Custom nasin nanpa pona numbering function, for page and chapter numbers
 // We do it recursively!
 #let get_nanpa(..nums, last) = {
-  if last < 1 {
-    // Base case, return empty string for 0 or less
-    return ""
+  let result_string = ""
+  let remaining_value = last
+  while (remaining_value > 0) {
+    if (remaining_value >= 100) {
+      let quotient = calc.floor(remaining_value / 100)
+      let remainder = calc.rem(remaining_value, 100)
+      result_string += get_nanpa(quotient)
+      result_string += "a"
+      remaining_value = remainder
+    }
+    for denomination in nanpa {
+      if (remaining_value >= denomination.at(0)) {
+        remaining_value -= denomination.at(0)
+        result_string += denomination.at(1)
+        break
+      }
+    }
   }
-  if last >= 100 {
-    // 100 or above: split it in two and recurse each, separated by "ale"
-    return get_nanpa(calc.floor(last / 100)) + [󱤄] + get_nanpa(calc.rem(last, 100))
-  } else {
-    // Base case, return an appropriate number for 1-99
-    return [#nanpa.at(19)] * calc.floor((last - 1) / 20) + [#nanpa.at(calc.rem(last, 20) - 1)]
-  }
+  return result_string
 }
+
+// #for value in range(1, 200) {
+//   par[#get_nanpa(value)]
+// }
 
 // TODO: replace all this front matter to hew closer to the original copy
 // First mini header page, sometimes this has review quotes but often it's just a mini logo
@@ -80,7 +91,6 @@ kepeken kulupu esun Lulu.
 nasin sitelen ni:\
 li nasin palisa\
 li sitelen seli kiwen\
-li nasin nanpa\
 li nasin Oz'sWizard\
 li nasin TeX Gyre Bonum.
 
@@ -106,16 +116,31 @@ o lukin pona!
 
 // TODO: modify header and footer to match the original book better
 // Set-up for non-front-matter pages: we set page number to one and set up the footer
-#counter(page).update(1)
-#set page(footer: context [
-  #set text(font: "sitelen seli kiwen mono asuki")
-  #h(1fr)
-  #counter(page).display(get_nanpa)
-  #h(1fr)
+#set page(header: context [
+  #let page_is_odd = calc.odd(counter(page).get().first())
+  #set text(size: 10pt)
+  #grid(
+    columns: (1fr, 2fr, 1fr),
+    [
+      #align(left, [
+        #if not page_is_odd [#smallcaps[#counter(page).display(get_nanpa)]] else []
+      ])
+    ],
+    [
+      #align(center, [
+        jan Osawi pi ma Osawi.
+      ])
+    ],
+    [
+      #align(right, [
+        #if page_is_odd [#smallcaps[#counter(page).display(get_nanpa)]] else []
+      ])
+    ],
+  )
 ])
 
 // And of course our lovely compact fiction spacing
-#set par(first-line-indent: 1.5em, spacing: 0.5em)
+#set par(first-line-indent: 2.5em, spacing: 0.5em)
 
 // Everything from here should be broken into individual chapter files that we import.
 
@@ -125,6 +150,7 @@ o lukin pona!
 // Probably should have made a function for this but as is I copy-pasted it
 // We have the chapter number, then a negative vertical space to tighten things, then the page number
 // Future chapters use the get_nanpa function but here it's manual for chapter open
+// This is currently broken on account of the new numbering function, but is slated to be removed soon as I intend to switch to Denslow's Illustrated chapter header pages.
 = #text(font: "sitelen seli kiwen mono asuki", [nanpa open]) #v(-10pt) #text(font: "Oz'sWizard", [kon tawa wawa])
 
 // Each chapter is closed inside a dropcap block
