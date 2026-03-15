@@ -5,14 +5,16 @@
 // TODO: bring in `meander` for wrapping text around illustrations
 
 // We use an A5 page size, as it's very close to the dimensions of the original book and offered by many printing companies.
-// TODO: add bleed so we can have images to the page edge
+// Plus 3mm for bleed!
 // TODO: match margins to the original book
-#set page(width: 148mm, height: 210mm, margin: (inside: 22mm, outside: 22mm, bottom: 20mm, top: 27mm))
+// 
+#set page(width: 148mm + 6mm, height: 210mm + 6mm, margin: (inside: 22mm + 3mm, outside: 22mm + 3mm, bottom: 20mm + 3mm, top: 27mm + 3mm))
 
 // Basic Heading Setup
 // TODO: fully replace this with the full-page two-tone chapter headers
 #show heading: set text(size: 22pt)
 #show heading: set par(first-line-indent: 0em)
+#show heading: set align(center)
 
 // The 1900 first edition (which we're using art from) used Monotype Old Style, of which TeX Gyre Bonum is a free replica.
 #set text(font: "TeX Gyre Bonum", size: 12pt)
@@ -109,13 +111,9 @@ o lukin pona!
 #v(3fr)
 
 
-// Blank page so we start chapter 1 on the right (recto)
-// TODO investigate a clear-to-recto function, as that will tend to come up a lot
-#pagebreak()
-#pagebreak()
-
-// TODO: modify header and footer to match the original book better
 // Set-up for non-front-matter pages: we set page number to one and set up the footer
+// TODO: make controlling this easier - don't show header/footer on blank/header pages
+// Perhaps with metadata settings? Like we did the Kemeka headings. Feels very doable.
 #set page(header: context [
   #let page_is_odd = calc.odd(counter(page).get().first())
   #set text(size: 10pt)
@@ -140,29 +138,23 @@ o lukin pona!
 ])
 
 // And of course our lovely compact fiction spacing
-#set par(first-line-indent: 2.5em, spacing: 0.5em)
+#set par(first-line-indent: 2.5em, spacing: 0.65em)
 
 // Everything from here should be broken into individual chapter files that we import.
+// Edit: AH, typst include is different to LaTeX \input, the above won't be as simple as I expected.
 
-// Start each chapter on a new page
-#pagebreak(weak: true)
+// Clear to recto
+#pagebreak(to: "odd")
 
-// Probably should have made a function for this but as is I copy-pasted it
-// We have the chapter number, then a negative vertical space to tighten things, then the page number
-// Future chapters use the get_nanpa function but here it's manual for chapter open
-// This is currently broken on account of the new numbering function, but is slated to be removed soon as I intend to switch to Denslow's Illustrated chapter header pages.
-= #text(font: "sitelen seli kiwen mono asuki", [nanpa open]) #v(-10pt) #text(font: "Oz'sWizard", [kon tawa wawa])
+// big title page
+#[
+#set page(background: image("illustrations/chapter_1.png", fit: "cover"))
+]
 
-// Each chapter is closed inside a dropcap block
-#dropcap(
-  height: 3,
-  gap: 4pt,
-  hanging-indent: 1em,
-  overhang: 8pt,
-  font: "nasin-palisa", [
-// Anything inside a box at the start of the chapter will get turned into a dropcap
-// No comments beyond this point as the rest is copy-pasted nightmare! :p
-#box[ma] supa suli Kansa lon ma Mewika la, jan Towesi en jan Enwi en jan Me li lon tomo sama. mama pi jan Towesi la, jan Enwi li jan sama. ona li jan pi pali ma pan. jan Me li jan olin ona. kiwen kasi li kama tan ma pi weka suli la, tomo ona li lili. sinpin tu tu en supa sewi wan en supa anpa wan li tomo wan taso tawa jan ale. ona li jo e ilo seli moku wan, e supa wan pi poki moku, e supa moku wan, e supa monsi mute, e supa lape tu. supa lape nanpa wan li suli, li lon poka tomo wan, li tawa jan Enwi, li tawa jan Me. supa lape nanpa tu li lili, li lon poka tomo ante, li tawa jan Towesi. sewi la, tomo li lon ala. anpa kin la, tomo li lon ala. taso lupa li lon anpa ma, li ken awen e jan tan tawa pi kon wawa. kon li tawa wawa sike la, tawa kon li ken pakala e tomo a! jan li open e supa lili la, ona li ken tawa anpa kepeken palisa nasin, li ken lon insa pi lupa anpa pimeja lili ni.
+// Clear to recto
+#pagebreak(to: "odd")
+
+ma supa suli Kansa lon ma Mewika la, jan Towesi en jan Enwi en jan Me li lon tomo sama. mama pi jan Towesi la, jan Enwi li jan sama. ona li jan pi pali ma pan. jan Me li jan olin ona. kiwen kasi li kama tan ma pi weka suli la, tomo ona li lili. sinpin tu tu en supa sewi wan en supa anpa wan li tomo wan taso tawa jan ale. ona li jo e ilo seli moku wan, e supa wan pi poki moku, e supa moku wan, e supa monsi mute, e supa lape tu. supa lape nanpa wan li suli, li lon poka tomo wan, li tawa jan Enwi, li tawa jan Me. supa lape nanpa tu li lili, li lon poka tomo ante, li tawa jan Towesi. sewi la, tomo li lon ala. anpa kin la, tomo li lon ala. taso lupa li lon anpa ma, li ken awen e jan tan tawa pi kon wawa. kon li tawa wawa sike la, tawa kon li ken pakala e tomo a! jan li open e supa lili la, ona li ken tawa anpa kepeken palisa nasin, li ken lon insa pi lupa anpa pimeja lili ni.
 
 jan Towesi li lon lupa pi sinpin tomo. ona li lukin e ma ale la, ona li ken lukin e ma suli supa taso pi kule ma. kasi suli en tomo li pini e nasin lukin lon ma ala. supa taso li suli la, ma en sewi li kama wan lon weka suli tawa lukin lon poka ale. suno li seli e ma, li weka e kule tan ma, li kama e linja lupa lili mute lon ma. kasi anpa kin li laso ala. suno li seli e sewi kasi la, kule ona kin li kama sama ma ale. jan li pana e kule tawa tomo lon tenpo pini. taso suno en telo sewi li pakala e kule ni kin. tenpo ni la, tomo li suwi ala tawa lukin, li kule weka sama ale ante.
 
@@ -201,7 +193,8 @@ tenpo wan la, soweli Toto li kama lon supa lupa open lon anpa, li anpa lon lupa.
 tenpo li tawa, li tawa. awen la, ike li kama weka tan pilin pi jan Towesi. taso ona li pilin pi wan taso a! kin la, kon li mu wawa lon poka ale, li ike tawa kute ona. tenpo open la, ona li kama pilin e ni: tomo li kama anpa wawa la, jan lili li kama ala kama pakala? taso tenpo li awen tawa la, ike ala li kama. ni la, jan li pini e pilin ike ona. ona li wile awen kepeken pilin ike wawa ala, li wile awen tawa ijo pi tenpo kama. pini la, ona li tawa lon supa anpa pi tawa nasa, li kama lon supa lape. soweli Toto li tawa poka ona.
 
 tomo li awen tawa nasa. kon tawa li awen mu. taso tenpo lili la, jan Towesi li pini e oko ona, li kama lape a!
-])
+
+/*
 
 #pagebreak(weak: true)
 
@@ -2661,5 +2654,7 @@ jan Towesi li toki pilin e lon: “lon ma Osawi. a o lukin: soweli Toto kin li l
 
 #set page(footer: context [])
 #pagebreak()
+
+*/
 
 
