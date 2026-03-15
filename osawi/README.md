@@ -23,20 +23,21 @@ Some quick notes for a restoration process I worked out while experimenting with
 - Change the image to indexed colours, using that palette.
 - Open the colormap and replace the colours with our colour scheme.
 - Use clone and fill brushes to remove any text from the image. We do it here as the indexed colour space is quite forgiving.
-- Convert back from indexed to RGB.
+For now, I'm not too confident that we've locked in the color scheme, so just leave it here! The only other steps that might want to happen after this are just anti-aliasing/tidying up the artifacts from essentially posterising the image.
+<!-- - Convert back from indexed to RGB.
 - Mean Curvature Blur Filter at 5 iterations. This has a bit of an "AI-Smudge" look to it that I don't love (though it's not AI), but it does a good job at cleaning up the artifacts of converting to indexed, so I don't mind it.
-- Median Blur Filter with a radius of 1. This just gets rid of any floating pixels.
+- Median Blur Filter with a radius of 1. This just gets rid of any floating pixels. -->
 
 This will take a lot of time, as, uh, seems like there are around ~156 illustrations! Some of them have been restored by others, but I think there's value in doing it all at once for this project, as we can have a very consistent look throughout the book.
 
 ### Illustration Colour Scheme
 Only a limited number of inks are used throughout the illustrations, with use of hatching for intermediate shades. To reflect this, we'll use a similar colour palette.
 
-(This might work really poorly in case where the pigments are misaligned? Maybe it's fine though.)
+(Keep colours indexed for now, though, in case we want to adjust the palette!)
 
 | Color | Hex Code |
 | --- | --- |
-| White | #ffffff |
+| White | #ffffff00 |
 | Black | #000000 |
 | Grey | #b5b5b5 |
 | Light Blue | #a0d4c8 | 

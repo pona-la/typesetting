@@ -1,6 +1,14 @@
 name,description,done
-1,Full-Page Chapter Header,true
-1a,Towesi and Toto in Kansa,false
-1b,Towesi catches Toto,false
-1c,Enwi and Em,false
-1d,Towesi asleep,false
+1,Chapter Header,true
+1a,Dorothy dropcap,"mostly (""Dorothy"" remains"")"
+1b,Towesi catches Toto,true
+1c,Enwi and Em,true
+1d,Towesi asleep,true
+2,Chapter Header,false
+2a,She dropcap,false
+2b,Mankin + Unu full page,false
+2c,3 Mankins,false
+2d,Towesi looks at house,false
+2e,Towesi takes the shoes,false
+2f,Unu seeks advice,false
+2g,Unu disappears,false
