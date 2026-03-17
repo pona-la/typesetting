@@ -23,7 +23,7 @@
 #show heading: set align(center)
 
 // The 1900 first edition (which we're using art from) used Monotype Old Style, of which TeX Gyre Bonum is a free replica.
-#set text(font: "TeX Gyre Bonum", size: 12pt)
+#set text(font: "TeX Gyre Bonum", size: 11.5pt)
 
 // Per-character justification!
 #set par(justify: true, justification-limits: (tracking: (min: -0.01em, max: 0.02em)), linebreaks: "optimized")

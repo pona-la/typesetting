@@ -1,13 +1,13 @@
 name,description,done
 1,Chapter Header,true
-1a,Dorothy dropcap,"mostly (""Dorothy"" remains"")"
+1a,Dorothy dropcap,"except ""Dorothy"""
 1b,Towesi catches Toto,true
 1c,Enwi and Em,true
 1d,Towesi asleep,true
-2,Chapter Header,false
-2a,She dropcap,false
-2b,Mankin + Unu full page,false
-2c,3 Mankins,false
+2,Chapter Header,true
+2a,She dropcap,"except ""S"""
+2b,Mankin + Unu full page,true
+2c,3 Mankins,true
 2d,Towesi looks at house,false
 2e,Towesi takes the shoes,false
 2f,Unu seeks advice,false
