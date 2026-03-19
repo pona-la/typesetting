@@ -2,14 +2,7 @@ Recently, jan Ke Tami put out an unabridged Toki Pona translation of *The Wonder
 
 **Currently, I'm in the process of redoing the whole book, one chapter at a time, to include illustrations, and closely match the original edition! Stay tuned!**
 
-## Decisions (Of the quick-and-dirty version)
-On the inside of the book, page and chapter numbers are set in [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) using nasin nanpa pona (I love how this font can condense numbers). The body text is TeX Gyre Bonum, a free Bookman typeface, to match the Monotype Old Style used in the original 1900 edition. Headings are set in [Oz'sWizard](https://www.dafont.com/ozswizard.font), a font based on W. W. Denslow's lettering. I've long held affection for the idea of sitelen pona dropcaps in a sitelen Lasina text, so was very excited to realise that here using the gorgeous [nasin palisa](https://github.com/Mrpalland/nasin-palisa).
-
-I did make the choice to remove Denslow's gorgeous illustrations, as I was putting this together for myself as a quick, cheap copy to read not-on-my-phone - colour printing and full page printing cost more money! As a result, I shuffled around the cover a bit - I didn't want to promise illustrations when I had none.
-
-The cover was pretty quick to put together. In the original, it was actually an inside cover page, but I liked the look of it! I thought it would look nice on a glossy pocket book cover, y'know? I removed the references to the publishers and Denslow's illustrations, as they were no longer accurate. The back cover is very much a melodramatic rush job, I don't like it very much, but wanted to have some sitelen pona on the back so I made something up. There's also no room for a barcode! :D
-
-### Process for Restoring Illustrations
+## Process for Restoring Illustrations
 Some quick notes for a restoration process I worked out while experimenting with GIMP. I've no experience in this field so feel free to reach out if you have pointers, but this is the process I stumbled into!
 
 - Start with the raw page scan from https://archive.org/details/wonderfulwizardo00baumiala/.
@@ -30,7 +23,7 @@ For now, I'm not too confident that we've locked in the color scheme, so just le
 
 This will take a lot of time, as, uh, seems like there are around ~156 illustrations! Some of them have been restored by others, but I think there's value in doing it all at once for this project, as we can have a very consistent look throughout the book.
 
-### Illustration Colour Scheme
+## Illustration Colour Scheme
 Only a limited number of inks are used throughout the illustrations, with use of hatching for intermediate shades. To reflect this, we'll use a similar colour palette.
 
 (Keep colours indexed for now, though, in case we want to adjust the palette!)
@@ -54,6 +47,6 @@ Only a limited number of inks are used throughout the illustrations, with use of
 
 The text of jan Ke Tami's translation is released into the public domain using CC0.
 
-I dedicate `osawi.typ` to the public domain using CC0.
+I dedicate all `.typ` files in this directory to the public domain using CC0.
 
 The fonts in this repo are under free, permissive licenses, but are not public domain. For that reason, I do not dedicate the other files to the public domain, as I'm not sure whether I am able to! (Please inform me if I can!)
