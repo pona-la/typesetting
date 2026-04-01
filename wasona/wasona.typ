@@ -3,5 +3,5 @@
 #show: template
 
 #include "en/00.typ"
-#pagebreak(to: "odd")
+#pagebreak()
 #include "en/03.typ"

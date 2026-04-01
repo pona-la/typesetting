@@ -13,7 +13,7 @@
     font: "Nunito",
   )
   #set par(
-    first-line-indent: 1em,
+    // first-line-indent: 1em,
     spacing: 1.5em,
     justify: true,
     leading: 1em,
@@ -27,41 +27,61 @@
   #doc
 ]
 
-
-#let word(key, value) = box[
-  #strong[#key]
-
-  #value
-]
-
-
-#let word(sp, sl, m, alt: false) = {
-  let sp_ = if sp == none { encode(sl) } else { sp }
-
-  box(
-    width: 100%,
-    fill: if alt { luma(240) } else { none },
-    inset: (x: 10pt, y: 7pt),
-    outset: (x: -0.5pt, y: 0pt),
-
-  )[
-    #grid(
-      columns: (auto, 1fr),
-      rows: (auto),
-      column-gutter: 10pt,
-      align: (left, left),
-
-
-      text(
-        size: 2em,
-        font: "nasin-nanpa", // change if needed
-      )[ #sp_ ],
-
-      block[
-        #text[#emph[#sl]]
-        #linebreak()
-        #text(m)
-      ],
-    )
-  ]
+#let list(items) = {
+  block(
+  breakable: false,
+  stroke: (
+    left: (
+      paint: rgb("#666"),
+      thickness: 1pt,
+      dash: "dotted",
+//       dash: "loosely-dotted",
+//       cap: "round",
+    ),
+  ),
+  grid(
+    columns: 1,
+    rows: auto,
+    fill: (x, y) =>
+      if calc.even(x + y) { luma(240) }
+      else { white },
+    ..items.map(item => {
+      box(
+        width: 100%,
+        inset: (x: 10pt, y: 7pt),
+        outset: (x: -0.5pt, y: 0pt)
+      )[
+        #item
+      ]
+    })
+  ))
 }
+
+#let word(sp, sl, m) = {
+  // let sp_ = if sp == none { encode(sl) } else { sp }
+  grid(
+    columns: (auto, 1fr),
+    rows: auto,
+    column-gutter: 10pt,
+    align: (left, left),
+
+    text(
+      size: 2em,
+      font: "nasin-nanpa"
+    )[#sp],
+
+    block[
+      #text[#emph[#sl]]
+      #linebreak()
+      #text(m)
+    ]
+  )
+}
+
+#let sentence(sp, sl, m) = [
+  #text(size: 1.5em, font: "nasin-nanpa")[#sp]
+  #linebreak()
+  #text[#emph[#sl]]
+  #linebreak()
+  #text[#m]
+]
