@@ -29,32 +29,31 @@
 
 #let list(items) = {
   block(
-  breakable: false,
-  stroke: (
-    left: (
-      paint: rgb("#666"),
-      thickness: 1pt,
-      dash: "dotted",
-//       dash: "loosely-dotted",
-//       cap: "round",
+    breakable: false,
+    stroke: (
+      left: (
+        paint: rgb("#666"),
+        thickness: 1pt,
+        dash: "dotted",
+        //       dash: "loosely-dotted",
+        //       cap: "round",
+      ),
     ),
-  ),
-  grid(
-    columns: 1,
-    rows: auto,
-    fill: (x, y) =>
-      if calc.even(x + y) { luma(240) }
-      else { white },
-    ..items.map(item => {
-      box(
-        width: 100%,
-        inset: (x: 10pt, y: 7pt),
-        outset: (x: -0.5pt, y: 0pt)
-      )[
-        #item
-      ]
-    })
-  ))
+    grid(
+      columns: 1,
+      rows: auto,
+      fill: (x, y) => if calc.even(x + y) { luma(240) } else { white },
+      ..items.map(item => {
+        box(
+          width: 100%,
+          inset: (x: 10pt, y: 7pt),
+          outset: (x: -0.5pt, y: 0pt),
+        )[
+          #item
+        ]
+      })
+    ),
+  )
 }
 
 #let word(sp, sl, m) = {
@@ -67,14 +66,14 @@
 
     text(
       size: 2em,
-      font: "nasin-nanpa"
+      font: "nasin-nanpa",
     )[#sp],
 
     block[
       #text[#emph[#sl]]
       #linebreak()
       #text(m)
-    ]
+    ],
   )
 }
 
