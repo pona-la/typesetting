@@ -76,17 +76,20 @@ Let\'s practice with these sentences:
   sentence(
     "󱤴󱥩󱤰󱤗",
     "mi tawa ma kasi.",
-    "I go to the plant land. (Could be a forest, a grassy field, somewhere lush.)",
+    "I go to the plant land.
+(Could be a forest, a grassy field, somewhere lush.)",
   ),
   sentence(
     "󱥡󱤧󱥶󱥧󱤴",
     "sona li weka tan mi.",
-    "Knowledge went away from me. (I forgot.)",
+    "Knowledge went away from me.
+(I forgot.)",
   ),
   sentence(
     "󱥢󱥦󱤧󱥔󱥩󱤴",
     "soweli suwi li pona tawa mi.",
-    "Cute animals are good to me. (I like cute animals.)",
+    "Cute animals are good to me.
+(I like cute animals.)",
   ),
   sentence(
     "󱤑󱦐󱥁󱥆󱥴󱤂󱦑󱤧󱥬󱥩󱤑󱦐󱤉󱤶󱤂󱦑",

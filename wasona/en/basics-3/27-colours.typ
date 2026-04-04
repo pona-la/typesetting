@@ -7,12 +7,12 @@
 Let's talk colours!
 
 #list((
-  word("REPLACE", "kule", "colour, kind; colourful"),
-  word("REPLACE", "walo", "white, pale"),
-  word("REPLACE", "pimeja", "black, dark"),
-  word("REPLACE", "loje", "red, magenta"),
-  word("REPLACE", "jelo", "yellow"),
-  word("REPLACE", "laso", "green, teal, blue"),
+  word("󱤞", "kule", "colour, kind; colourful"),
+  word("󱥲", "walo", "white, pale"),
+  word("󱥏", "pimeja", "black, dark"),
+  word("󱤫", "loje", "red, magenta"),
+  word("󱤒", "jelo", "yellow"),
+  word("󱤣", "laso", "green, teal, blue"),
 ))
 
 In #emph[sitelen pona], many colour words look as if they were #emph[compounds]:
@@ -30,9 +30,9 @@ Vietnamese, Zulu and many other languages. These two sentences together makes
 sense in Toki Pona, but not in English:
 
 #list((
-  word("REPLACE", "kin", "also, too"),
-  sentence("REPLACE", "sewi li laso.", "The sky is blue."),
-  sentence("REPLACE", "kasi kin li laso.", "The grass, too, is green."),
+  word("󱥹", "kin", "also, too"),
+  sentence("󱥚󱤧󱤣", "sewi li laso.", "The sky is blue."),
+  sentence("󱤗󱥹󱤧󱤣", "kasi kin li laso.", "The grass, too, is green."),
 ))
 
 == Do you need colours?
@@ -43,15 +43,19 @@ much more specific: #emph[a white lie], #emph[the black market], #emph[a
   greenhouse]. Toki Pona doesn't like shortcuts that don't get to the point:
 
 #list((
-  sentence("REPLACE", "tomo laso", "a green house"),
-  sentence("REPLACE", "tomo kasi", "a greenhouse"),
+  sentence("󱥭󱤣", "tomo laso", "a green house"),
+  sentence("󱥭󱤗", "tomo kasi", "a greenhouse"),
 ))
 
 There's a big difference between a white house and the White House:
 
 #list((
-  sentence("REPLACE", "tomo walo", "a white house"),
-  sentence("REPLACE", "tomo ni la jan li lawa e ma Mewika.", "the White House"),
+  sentence("󱥭󱥲", "tomo walo", "a white house"),
+  sentence(
+    "󱥭󱥁󱤡󱤑󱤧󱤤󱤉󱤰󱦐󱤶󱤉󱥴󱤍󱤗󱤂󱦑",
+    "tomo ni la jan li lawa e ma Mewika.",
+    "the White House",
+  ),
 ))
 
 I only bring it up now, because colours are the most obvious example, but the

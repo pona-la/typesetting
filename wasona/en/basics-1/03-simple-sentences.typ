@@ -4,7 +4,8 @@
 
 = lesson 3: simple sentences
 
-Now that you know how to read Toki Pona, it's time to learn words and sentences! Here are some words for things:
+Now that you know how to read Toki Pona, it's time to learn words and sentences!
+Here are some words for things:
 
 #list((
   word("󱥢", "soweli", "land animal, like a cat, dog, cow, mouse, elephant"),

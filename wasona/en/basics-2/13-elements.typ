@@ -19,17 +19,17 @@ entirety of our complex world. But they help us make sense of it. So let's learn
 some Toki Pona words that are useful for describing them:
 
 #list((
-  word("REPLACE", "kon", "air, soul, essence, meaning"),
-  word("REPLACE", "telo", "water, a thin liquid"),
+  word("󱤝", "kon", "air, soul, essence, meaning"),
+  word("󱥪", "telo", "water, a thin liquid"),
   word(
-    "REPLACE",
+    "󱤜",
     "ko",
     "a soft solid or thick liquid, like sand, clay, dough, glue",
   ),
-  word("REPLACE", "kiwen", "a hard solid, like stone, wood, metal"),
-  word("REPLACE", "seli", "fire, hot, to burn"),
-  word("REPLACE", "lete", "cold"),
-  word("REPLACE", "sewi", "sky; high, divine"),
+  word("󱤛", "kiwen", "a hard solid, like stone, wood, metal"),
+  word("󱥗", "seli", "fire, hot, to burn"),
+  word("󱤦", "lete", "cold"),
+  word("󱥚", "sewi", "sky; high, divine"),
 ))
 
 Just like classical elements, Toki Pona words often feel broad, encompassing
@@ -50,23 +50,24 @@ situations! And that comes with time and practice.
 Let's learn to use these words in phrases and sentences:
 
 #list((
-  word("REPLACE", "kiwen kasi", "the hard stuff of a plant, wood"),
-  word("REPLACE", "ko lete", "cold fluff, snow"),
-  word("REPLACE", "kon sewi", "divine spirit"),
-  word("REPLACE", "telo nasa", "liquid that causes drunkenness, alcohol"),
-  sentence("REPLACE", "lete li awen e moku.", "Coldness preserves the food."),
+  word("󱤛󱤗", "kiwen kasi", "the hard stuff of a plant, wood"),
+  word("󱤜󱤦", "ko lete", "cold fluff, snow"),
+  word("󱤝󱥚", "kon sewi", "divine spirit"),
+  word("󱥪󱤾", "telo nasa", "liquid that causes drunkenness, alcohol"),
+  sentence("󱤦󱤧󱤈󱤉󱤶", "lete li awen e moku.", "Coldness preserves the food."),
   sentence(
-    "REPLACE",
+    "󱥗󱤧󱤶󱤉󱤛󱤗",
     "seli li moku e kiwen kasi.",
     "The fire consumed the wood.",
   ),
   sentence(
-    "REPLACE",
+    "󱥪󱤧󱤖󱥧󱥚",
     "telo li kama tan sewi.",
-    "Water is falling from the sky.<br />(It's raining.)",
+    "Water is falling from the sky.
+(It's raining.)",
   ),
   sentence(
-    "REPLACE",
+    "󱥄󱤖󱥡󱤉󱤝󱥬",
     "o kama sona e kon toki!",
     "Learn the meaning of the speech!",
   ),

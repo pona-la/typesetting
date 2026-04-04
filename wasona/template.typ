@@ -23,7 +23,8 @@
     leading: 0.9em,
   )
   #show heading: set text(
-    font: "TeX Gyre Heros",
+    // font: "TeX Gyre Heros",
+    font: "TeX Gyre Schola",
     top-edge: "cap-height"
   )
   // Website-style links:
@@ -51,7 +52,7 @@
     grid(
       columns: 1,
       rows: auto,
-      fill: (x, y) => if calc.even(x + y) { luma(240) } else { white },
+      fill: (x, y) => if calc.even(x + y) { luma(245) } else { white },
       ..items.map(item => {
         box(
           width: 100%,
@@ -59,7 +60,8 @@
           outset: (x: -0.5pt, y: 0pt),
         )[
           #set text(
-            font: "TeX Gyre Heros",
+            // font: "TeX Gyre Heros",
+            font: "TeX Gyre Schola",
             top-edge: "cap-height"
           )
 

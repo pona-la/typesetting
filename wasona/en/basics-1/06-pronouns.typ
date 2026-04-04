@@ -8,12 +8,12 @@ You're probably tired of long sentences and parts-of-speech shenanigans. Let's
 take it down a notch, by pointing at things:
 
 #list((
-  word("REPLACE", "ni", "this, that"),
-  sentence("REPLACE", "ni li soweli.", "This is an animal."),
-  sentence("REPLACE", "ni li kasi.", "This is a plant."),
-  sentence("REPLACE", "ni li moku suwi.", "This is sweet food."),
-  sentence("REPLACE", "ni li suli.", "This is important."),
-  sentence("REPLACE", "ni li pona wawa.", "This is amazingly good."),
+  word("󱥁", "ni", "this, that"),
+  sentence("󱥁󱤧󱥢", "ni li soweli.", "This is an animal."),
+  sentence("󱥁󱤧󱤗", "ni li kasi.", "This is a plant."),
+  sentence("󱥁󱤧󱤶󱥦", "ni li moku suwi.", "This is sweet food."),
+  sentence("󱥁󱤧󱥣", "ni li suli.", "This is important."),
+  sentence("󱥁󱤧󱥔󱥵", "ni li pona wawa.", "This is amazingly good."),
 ))
 
 These are our first _sentences without an object_, and so there is no #strong[󱤉
@@ -28,22 +28,22 @@ when filling the role of the verb in the sentence, words automatically include
 Now that we've looked at one pronoun, let's get some more:
 
 #list((
-  word("REPLACE", "mi", "I, we; my, our"),
-  word("REPLACE", "sina", "you; your"),
-  word("REPLACE", "ona", "she, he, it, they; her, his, its, their"),
+  word("󱤴", "mi", "I, we; my, our"),
+  word("󱥞", "sina", "you; your"),
+  word("󱥆", "ona", "she, he, it, they; her, his, its, their"),
 ))
 
 Let's practice using #strong[󱤴 mi], #strong[󱥞 sina], #strong[󱥆 ona], and
 #strong[󱥁 ni] in sentences:
 
 #list((
-  sentence("REPLACE", "kasi ni li suli.", "This plant is big."),
-  sentence("REPLACE", "sona sina li wawa.", "Your knowledge is amazing."),
-  sentence("REPLACE", "pipi ni li pipi mi.", "This bug is my bug."),
-  sentence("REPLACE", "waso sina li lukin e mi.", "Your bird sees me."),
-  sentence("REPLACE", "waso li moku e pipi ni.", "The bird eats this bug."),
+  sentence("󱤗󱥁󱤧󱥣", "kasi ni li suli.", "This plant is big."),
+  sentence("󱥡󱥞󱤧󱥵", "sona sina li wawa.", "Your knowledge is amazing."),
+  sentence("󱥑󱥁󱤧󱥑󱤴", "pipi ni li pipi mi.", "This bug is my bug."),
+  sentence("󱥴󱥞󱤧󱤮󱤉󱤴", "waso sina li lukin e mi.", "Your bird sees me."),
+  sentence("󱥴󱤧󱤶󱤉󱥑󱥁", "waso li moku e pipi ni.", "The bird eats this bug."),
   sentence(
-    "REPLACE",
+    "󱥢󱤴󱤧󱤶󱤉󱤗󱥆",
     "soweli mi li moku e kasi ona.",
     "My animal eats its plant.",
   ),
@@ -55,10 +55,10 @@ something strange happens when #strong[󱤴 mi] or #strong[󱥞 sina] is the sub
 of the sentence:
 
 #list((
-  sentence("REPLACE", "mi wawa.", "I am strong."),
-  sentence("REPLACE", "sina lukin e moku.", "You see food."),
-  sentence("REPLACE", "mi sona e kasi suli.", "I know the big plant."),
-  sentence("REPLACE", "sina sona e suli kasi.", "You know the plant's size."),
+  sentence("󱤴󱥵", "mi wawa.", "I am strong."),
+  sentence("󱥞󱤮󱤉󱤶", "sina lukin e moku.", "You see food."),
+  sentence("󱤴󱥡󱤉󱤗󱥣", "mi sona e kasi suli.", "I know the big plant."),
+  sentence("󱥞󱥡󱤉󱥣󱤗", "sina sona e suli kasi.", "You know the plant's size."),
 ))
 
 Toki Pona has a special rule: when #strong[󱤴 mi] or #strong[󱥞 sina] is the

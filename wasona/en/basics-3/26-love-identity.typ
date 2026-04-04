@@ -11,12 +11,12 @@ talk about #emph[really liking] someone. But that's not the same as
 you love:
 
 #list((
-  word("REPLACE", "olin", "to love"),
-  word("REPLACE", "unpa", "to have sex"),
-  word("REPLACE", "mama", "parent"),
-  word("REPLACE", "mije", "man, masculine person, husband; male"),
-  word("REPLACE", "meli", "woman, feminine person, wife; female"),
-  word("REPLACE", "tonsi", "non-binary, gender-nonconforming; trans"),
+  word("󱥅", "olin", "to love"),
+  word("󱥯", "unpa", "to have sex"),
+  word("󱤱", "mama", "parent"),
+  word("󱤵", "mije", "man, masculine person, husband; male"),
+  word("󱤳", "meli", "woman, feminine person, wife; female"),
+  word("󱥾", "tonsi", "non-binary, gender-nonconforming; trans"),
 ))
 
 Many language courses start with words for "man, woman, girl, boy, mother,
@@ -26,25 +26,26 @@ mostly come up when talking about social expectations about gender, and
 relationships in particular.
 
 #list((
-  sentence("REPLACE", "mi olin e mije mi.", "I love my boyfriend."),
-  sentence("REPLACE", "mama o!", "Mom! (or) Dad!"),
-  sentence("REPLACE", "mi olin e meli.", "I'm into girls."),
+  sentence("󱤴󱥅󱤉󱤵󱤴", "mi olin e mije mi.", "I love my boyfriend."),
+  sentence("󱤱󱥄", "mama o!", "Mom! (or) Dad!"),
+  sentence("󱤴󱥅󱤉󱤳", "mi olin e meli.", "I'm into girls."),
 ))
 
 The word 'non-binary' comes from recent Western culture, but an identity that is
 separate from men and women exists in many other cultures from different times,
-like Scythian [enarei](https://en.wikipedia.org/wiki/Enaree), Samoan
-[fa'afafine](https://en.wikipedia.org/wiki/Fa%CA%BBafafine), Thai
-[kathoey](https://en.wikipedia.org/wiki/Kathoey), and so on. #strong[󱥾 tonsi] is
-a word to describe any of them, it doesn't imply any particular culture.
+like Scythian #link("https://en.wikipedia.org/wiki/Enaree")[enarei], Samoan
+#link("https://en.wikipedia.org/wiki/Fa%CA%BBafafine")[fa'afafine], Thai #link(
+  "https://en.wikipedia.org/wiki/Kathoey",
+)[kathoey], and so on. #strong[󱥾 tonsi] is a word to describe any of them, it
+doesn't imply any particular culture.
 
 Some more examples of situations where gender could be relevant:
 
 #list((
-  sentence("REPLACE", "len mi li mije.", "I dress masculine."),
-  sentence("REPLACE", "jan olin mi li tonsi.", "My partner is non-binary."),
+  sentence("󱤥󱤴󱤧󱤵", "len mi li mije.", "I dress masculine."),
+  sentence("󱤑󱥅󱤴󱤧󱥾", "jan olin mi li tonsi.", "My partner is non-binary."),
   sentence(
-    "REPLACE",
+    "󱤴󱤳󱤉󱥛󱤴󱤙󱦇",
     "mi meli e sijelo mi kepeken misikeke.",
     "I make my body more feminine with medication.",
   ),
@@ -59,20 +60,20 @@ you wouldn't know where one subject ends and another begins. To solve this
 problem, we use a new particle in between:
 
 #list((
-  word("REPLACE", "en", "joins subjects"),
-  sentence("REPLACE", "mi en ona li toki.", "Me and her are chatting."),
+  word("󱤊", "en", "joins subjects"),
+  sentence("󱤴󱤊󱥆󱤧󱥬", "mi en ona li toki.", "Me and her are chatting."),
   sentence(
-    "REPLACE",
+    "󱥢󱤊󱥴󱤧󱥱",
     "soweli en waso li utala.",
     "The animal and the bird are fighting.",
   ),
   sentence(
-    "REPLACE",
+    "󱤳󱤊󱤵󱤧󱥯",
     "meli en mije li unpa.",
     "The woman and the man have sex.",
   ),
 ))
 
 == See also
-+ [A deeper discussion on gender and Toki Pona, by wan
-  Tansin](https://www.tamz.in/toki_mi/there-is-no-gender-in-toki-pona/)
++ #link("https://www.tamz.in/toki_mi/there-is-no-gender-in-toki-pona/")[A deeper
+    discussion on gender and Toki Pona, by wan Tansin]

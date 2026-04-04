@@ -7,16 +7,16 @@
 Just one more important word to learn, before we get to the silly part!
 
 #list((
-  word("REPLACE", "taso", "but, only"),
+  word("󱥨", "taso", "but, only"),
 ))
 
 #strong[󱥨 taso] can be a normal adjective meaning "only", but it can also be put
 at the beginning of a sentence to mean "but".
 
 #list((
-  sentence("REPLACE", "mi taso li sona e ni.", "Only I am aware of this."),
-  sentence("REPLACE", "mi awen wan taso.", "I remain alone."),
-  sentence("REPLACE", "taso mi awen pilin pona.", "But I keep my spirits up."),
+  sentence("󱤴󱥨󱤧󱥡󱤉󱥁", "mi taso li sona e ni.", "Only I am aware of this."),
+  sentence("󱤴󱤈󱥳󱥨", "mi awen wan taso.", "I remain alone."),
+  sentence("󱥨󱤴󱤈󱥎󱥔", "taso mi awen pilin pona.", "But I keep my spirits up."),
 ))
 
 == The silly!
@@ -24,19 +24,21 @@ at the beginning of a sentence to mean "but".
 #strong[󱦆 n] is an interjection just like #strong[󱤀 a], but nasally:
 
 #list((
-  word("REPLACE", "n", "hmm, umm"),
-  sentence("REPLACE", "n... mi sona ala.", "ummm... I don't know."),
+  word("󱦆", "n", "hmm, umm"),
+  sentence("󱦆
+󱤴󱥡󱤂", "n... mi sona ala.", "ummm... I don't know."),
 ))
 
 #strong[󱤹 mu] is the kind of sound an animal makes! Which animal? Well, any of
 them:
 
 #list((
-  word("REPLACE", "mu", "moo, meow, woof, neigh..."),
+  word("󱤹", "mu", "moo, meow, woof, neigh..."),
   sentence(
-    "REPLACE",
+    "󱥢󱤼
+󱤹󱤹󱤹󱤹󱤹󱤹",
     "soweli mute! mu mu mu mu mu mu.",
-    "Six cows! <a target='_blank' href='https://www.youtube.com/watch?v=xxClPfZDn-E'>Moo moo moo moo moo moo</a>.",
+    "Six cows! Moo moo moo moo moo moo.",
   ),
 ))
 
@@ -45,10 +47,10 @@ too. If #strong[󱤕 kalama] is a #emph[description] of a sound, then #strong[�
 is an #emph[imitation] of a sound:
 
 #list((
-  sentence("REPLACE", "mi kute e kalama suli.", "I heard a loud noise."),
-  sentence("REPLACE", "mi kute e mu suli.", "I heard a loud bang."),
+  sentence("󱤴󱤠󱤉󱤕󱥣", "mi kute e kalama suli.", "I heard a loud noise."),
+  sentence("󱤴󱤠󱤉󱤹󱥣", "mi kute e mu suli.", "I heard a loud bang."),
   sentence(
-    "REPLACE",
+    "󱤍󱤡󱤎󱤧󱤈󱤹󱤉󱤴",
     "ike la ilo li awen mu e mi.",
     "Unfortunately, the app keeps pinging me.",
   ),
@@ -63,7 +65,7 @@ encapsulates having fun more than this one:
 
 #list((
   word(
-    "REPLACE",
+    "󱦀",
     "kijetesantakalu",
     "raccoon; raccoon-like animal, like a cacomistle, red panda, kinkajou",
   ),
@@ -77,14 +79,14 @@ These two words also require a history note:
 
 #list((
   word(
-    "REPLACE",
+    "󱥕",
     "pu",
-    "(to interact with) <i>Toki Pona: The Language of Good (2014)</i>, by Sonja Lang",
+    "(to interact with) Toki Pona: The Language of Good (2014), by Sonja Lang",
   ),
   word(
-    "REPLACE",
+    "󱦈",
     "ku",
-    "(to interact with) <i>Toki Pona Dictionary (2021)</i>, by Sonja Lang",
+    "(to interact with) Toki Pona Dictionary (2021), by Sonja Lang",
   ),
 ))
 
@@ -113,7 +115,8 @@ and you know enough by now to think of a suitable replacement in common words
 wild.
 
 == See also
-+ [Q: what other, uncommon words might I encounter?](/en/uncommon-words/)
-+ [what is Sonja Lang up to these days?](https://tokipona.org/madame_lang)
-+ [funny video: animal sounds are all #strong[󱤹
-    mu]](https://www.youtube.com/watch?v=zh-kLJI43xw)
++ #link("/en/uncommon-words/")[Q: what other, uncommon words might I encounter?]
++ #link("https://tokipona.org/madame_lang")[what is Sonja Lang up to these
+    days?]
++ #link("https://www.youtube.com/watch?v=zh-kLJI43xw")[funny video: animal
+    sounds are all #strong[󱤹 mu]]

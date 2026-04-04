@@ -9,32 +9,32 @@ In lesson 8, we learned three prepositions: #strong[󱥩 tawa], #strong[󱤬 lon
 has two more prepositions:
 
 #list((
-  word("REPLACE", "kepeken", "using, by means of"),
-  word("REPLACE", "sama", "similar to, same as"),
+  word("󱤙", "kepeken", "using, by means of"),
+  word("󱥖", "sama", "similar to, same as"),
 ))
 
 Let's learn a few more words that go well with these prepositions:
 
 #list((
-  word("REPLACE", "ante", "to change; different, other"),
-  word("REPLACE", "pali", "to work, to build"),
-  word("REPLACE", "leko", "brick, block"),
+  word("󱤆", "ante", "to change; different, other"),
+  word("󱥉", "pali", "to work, to build"),
+  word("󱥼", "leko", "brick, block"),
 ))
 
 Remember, prepositions start prepositional phrases:
 
 #list((
-  word("REPLACE", "sama sina", "same as you"),
-  word("REPLACE", "kepeken toki", "by means of language"),
-  word("REPLACE", "kepeken ilo ante", "with a different tool"),
+  word("󱥖󱥞", "sama sina", "same as you"),
+  word("󱤙󱥬", "kepeken toki", "by means of language"),
+  word("󱤙󱤎󱤆", "kepeken ilo ante", "with a different tool"),
 ))
 
 And those phrases then go either on the end of a sentence:
 
 #list((
-  sentence("REPLACE", "mi toki sama sina.", "I speak like you."),
+  sentence("󱤴󱥬󱥖󱥞", "mi toki sama sina.", "I speak like you."),
   sentence(
-    "REPLACE",
+    "󱤴󱥉󱤉󱥼󱤙󱤎",
     "mi pali e leko kepeken ilo.",
     "I make bricks using a tool.",
   ),
@@ -43,8 +43,8 @@ And those phrases then go either on the end of a sentence:
 Or in place of the verb itself:
 
 #list((
-  sentence("REPLACE", "ona li sama sina.", "They are like you."),
-  sentence("REPLACE", "ona li kepeken ilo.", "They use a tool."),
+  sentence("󱥆󱤧󱥖󱥞", "ona li sama sina.", "They are like you."),
+  sentence("󱥆󱤧󱤙󱤎", "ona li kepeken ilo.", "They use a tool."),
 ))
 
 == Moving a house
@@ -54,11 +54,11 @@ Now that you know all five prepositions: #strong[󱥩 tawa], #strong[󱤬 lon],
 about them: these can all be regular nouns, verbs, or adjectives!
 
 #list((
-  word("REPLACE", "tawa", "to move; movement; moving"),
-  word("REPLACE", "lon", "true, real, existing"),
-  word("REPLACE", "tan", "cause, origin"),
-  word("REPLACE", "kepeken", "usage"),
-  word("REPLACE", "sama", "similar, alike"),
+  word("󱥩", "tawa", "to move; movement; moving"),
+  word("󱤬", "lon", "true, real, existing"),
+  word("󱥧", "tan", "cause, origin"),
+  word("󱤙", "kepeken", "usage"),
+  word("󱥖", "sama", "similar, alike"),
 ))
 
 Some of them, like #strong[󱥩 tawa], #strong[󱤬 lon], are used this way very
@@ -66,18 +66,19 @@ frequently. Others, like #strong[󱥧 tan] and #strong[󱤙 kepeken], quite rare
 Let's look at some examples:
 
 #list((
-  sentence("REPLACE", "sona mi li sama.", "My knowledge is similar."),
+  sentence("󱥡󱤴󱤧󱥖", "sona mi li sama.", "My knowledge is similar."),
   sentence(
-    "REPLACE",
+    "󱥬󱥞󱤧󱤬",
     "toki sina li lon.",
-    "Your speech is real.<br />(What you're saying is true.)",
+    "Your speech is real.
+(What you're saying is true.)",
   ),
   sentence(
-    "REPLACE",
+    "󱤴󱥷󱤮󱤉󱥠󱥩",
     "mi wile lukin e sitelen tawa.",
     "I want to watch a moving picture. (a video, a film)",
   ),
-  sentence("REPLACE", "mi sona ala e tan.", "I don't know the reason."),
+  sentence("󱤴󱥡󱤂󱤉󱥧", "mi sona ala e tan.", "I don't know the reason."),
 ))
 
 We often like to shape sentences in such a way that it's impossible to misread
@@ -89,15 +90,16 @@ Sometimes you can make very similar sentences, except one has a verb like
 
 #list((
   sentence(
-    "REPLACE",
+    "󱤑󱤧󱥩󱥭",
     "jan li tawa tomo.",
     "Someone goes to the house. (preposition)",
   ),
-  sentence("REPLACE", "jan li tawa e tomo.", "Someone moves the house. (verb)"),
-  sentence("REPLACE", "mi lon ma.", "I'm on land. (preposition)"),
+  sentence("󱤑󱤧󱥩󱤉󱥭", "jan li tawa e tomo.", "Someone moves the house. (verb)"),
+  sentence("󱤴󱤬󱤰", "mi lon ma.", "I'm on land. (preposition)"),
   sentence(
-    "REPLACE",
+    "󱤴󱤬󱤉󱤰",
     "mi lon e ma.",
-    "I summon land into reality.<br />I establish a territory. (verb)",
+    "I summon land into reality.
+I establish a territory. (verb)",
   ),
 ))

@@ -8,36 +8,37 @@ We live in a society! Let's learn some words that are useful for navigating a
 society:
 
 #list((
-  word("REPLACE", "kulupu", "community, team, group"),
-  word("REPLACE", "nasin", "way, method, tradition, path"),
-  word("REPLACE", "esun", "to swap, to trade; market, shop"),
-  word("REPLACE", "mani", "money, valuable thing"),
-  word("REPLACE", "moli", "dead; to kill"),
-  word("REPLACE", "mute", "many, very"),
+  word("󱤟", "kulupu", "community, team, group"),
+  word("󱤿", "nasin", "way, method, tradition, path"),
+  word("󱤋", "esun", "to swap, to trade; market, shop"),
+  word("󱤲", "mani", "money, valuable thing"),
+  word("󱤷", "moli", "dead; to kill"),
+  word("󱤼", "mute", "many, very"),
 ))
 
 Let's use the new words in sentences:
 
 #list((
-  sentence("REPLACE", "nasin mute li lon.", "There are many traditions."),
-  sentence("REPLACE", "jan li pali lon kulupu.", "People work in teams."),
+  sentence("󱤿󱤼󱤧󱤬", "nasin mute li lon.", "There are many traditions."),
+  sentence("󱤑󱤧󱥉󱤬󱤟", "jan li pali lon kulupu.", "People work in teams."),
   sentence(
-    "REPLACE",
+    "󱤥󱥔󱤧󱥷󱤉󱤲󱤼",
     "len pona li wile e mani mute.",
-    "Good clothes require a lot of money.<br />Good clothes are expensive.",
+    "Good clothes require a lot of money.
+Good clothes are expensive.",
   ),
   sentence(
-    "REPLACE",
+    "󱤑󱤼󱤧󱤷󱥧󱥱󱥣",
     "jan mute li moli tan utala suli.",
     "Many people died because of the war.",
   ),
   sentence(
-    "REPLACE",
+    "󱤴󱥷󱤋󱤉󱥢󱤴",
     "mi wile esun e soweli mi.",
     "I would like to sell my cow.",
   ),
   sentence(
-    "REPLACE",
+    "󱤴󱥷󱤂󱤋󱤉󱥢󱥞",
     "mi wile ala esun e soweli sina.",
     "I don't want to buy your cow.",
   ),
@@ -54,15 +55,15 @@ pronouns #strong[󱤴 mi], #strong[󱥞 sina], #strong[󱥆 ona] all that often,
 #strong[󱤼 mute] is so useful that it does that quite frequently:
 
 #list((
-  word("REPLACE", "mi mute", "we, many of us"),
+  word("󱤴󱤼", "mi mute", "we, many of us"),
   sentence(
-    "REPLACE",
+    "󱤟󱥉󱤧󱤓󱤉󱤴󱤼",
     "kulupu pali li jo e mi mute.",
     "The labour union includes a lot of us.",
   ),
-  word("REPLACE", "sina mute", "you lot, you guys, y'all"),
+  word("󱥞󱤼", "sina mute", "you lot, you guys, y'all"),
   sentence(
-    "REPLACE",
+    "󱥆󱤧󱤘󱥠󱤉󱥞󱤼",
     "ona li ken sitelen e sina mute.",
     "They can take a picture of you guys.",
   ),
@@ -73,8 +74,8 @@ the subject of the sentence, we remove the #strong[󱤧 li]"? That rule is quite
 specific! Take a look at these sentences:
 
 #list((
-  sentence("REPLACE", "mi mute li kalama musi.", "We perform music together."),
-  sentence("REPLACE", "sina mute li sona e ni.", "Many of you know this."),
+  sentence("󱤴󱤼󱤧󱤕󱤻", "mi mute li kalama musi.", "We perform music together."),
+  sentence("󱥞󱤼󱤧󱥡󱤉󱥁", "sina mute li sona e ni.", "Many of you know this."),
 ))
 
 Notice how the #strong[󱤧 li] isn't dropped. This is because the subject isn't
