@@ -42,7 +42,7 @@
     // breakable: false,
     stroke: (
       left: (
-        paint: rgb("#666"),
+        paint: luma(70),
         thickness: 1pt,
         dash: "dotted",
         //       dash: "loosely-dotted",

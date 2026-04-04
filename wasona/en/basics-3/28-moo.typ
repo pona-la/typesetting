@@ -103,7 +103,7 @@ experiment, to have fun, to be creative, to make in-jokes.
 
 #list((
   sentence(
-    "REPLACE",
+    "󱦀󱥾󱤧󱦅󱤂󱦅󱤉󱦁",
     "kijetesantakalu tonsi li lanpan ala lanpan e soko?",
     "Does the non-binary raccoon steal mushrooms?",
   ),
