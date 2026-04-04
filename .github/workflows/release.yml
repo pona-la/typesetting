@@ -1,0 +1,72 @@
+name: Build Typst PDF
+
+on:
+  push:
+    branches:
+      - main
+      - "**"
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Typst
+        run: |
+          curl -L https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz -o typst.tar.xz
+          tar -xf typst.tar.xz
+          sudo mv typst-*/typst /usr/local/bin/typst
+
+      - name: Compile Typst file
+        run: typst compile osawi/osawi.typ osawi/osawi.pdf
+
+      # - name: Upload artifact (always)
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: typst-pdf
+      #     path: osawi/osawi.pdf
+
+      # release:
+      #   if: github.ref == 'refs/heads/main'
+      #   needs: build
+      #   runs-on: ubuntu-latest
+
+      # steps:
+      # - name: Checkout repository
+      #   uses: actions/checkout@v4
+
+      # - name: Download built PDF
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: typst-pdf
+
+      # - name: Delete old releases
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     releases=$(gh release list --json tagName -q '.[].tagName')
+      #     for tag in $releases; do
+      #       gh release delete "$tag" --yes || true
+      #     done
+
+      # - name: Delete old artifacts
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     artifacts=$(gh api repos/${{ github.repository }}/actions/artifacts --jq '.artifacts[].id')
+      #     for id in $artifacts; do
+      #       gh api repos/${{ github.repository }}/actions/artifacts/$id -X DELETE || true
+      #     done
+
+      - name: Create new release
+        # env:
+        #   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "latest" osawi/osawi.pdf --title "Latest PDF" --notes "Auto-generated PDF from Typst"
