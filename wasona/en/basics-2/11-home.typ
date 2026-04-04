@@ -1,6 +1,8 @@
-#import "../template.typ": *
+#import "../../template.typ": *
 
 #show: template
+
+= lesson 11: home
 
 == Home
 

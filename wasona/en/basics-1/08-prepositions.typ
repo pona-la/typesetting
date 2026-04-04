@@ -1,6 +1,8 @@
-#import "../template.typ": *
+#import "../../template.typ": *
 
 #show: template
+
+= lesson 8: prepositions
 
 == Prepositions
 Now that we know some countries, let\'s talk about travel! But how do you say

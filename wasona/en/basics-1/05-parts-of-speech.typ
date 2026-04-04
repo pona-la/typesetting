@@ -1,6 +1,8 @@
-#import "../template.typ": *
+#import "../../template.typ": *
 
 #show: template
+
+= lesson 5: parts of speech
 
 == Parts of speech
 Some of you may have spotted that I introduced the word #strong[󱥡 sona] twice,

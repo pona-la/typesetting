@@ -1,6 +1,8 @@
-#import "../template.typ": *
+#import "../../template.typ": *
 
 #show: template
+
+= lesson 7: names
 
 == Names
 Pointing at things is nice, but sometimes it\'s nice to be more specific.

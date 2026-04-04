@@ -1,6 +1,8 @@
-#import "../template.typ": *
+#import "../../template.typ": *
 
 #show: template
+
+= lesson 12: requests
 
 == Requests
 
