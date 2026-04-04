@@ -9,6 +9,15 @@
   #set page(
     paper: "a5",
   )
+
+  #set page(footer: context {
+  if calc.even(counter(page).get().first()) {
+    align(right, counter(page).display("1"))
+} else {
+    align(left, counter(page).display("1"))
+  }
+})
+
   #set text(
     // font: "Noto Sans",
     font: "TeX Gyre Schola",
