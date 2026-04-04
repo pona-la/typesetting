@@ -46,7 +46,7 @@
   )
   #show heading: set text(
     // font: "TeX Gyre Heros",
-    font: "TeX Gyre Schola",
+    //     font: "TeX Gyre Schola",
     top-edge: "cap-height",
   )
   #show heading.where(level: 1): it => {
@@ -57,11 +57,11 @@
       extent: 10pt,
       offset: 10pt,
       stroke: 1pt,
-      it.body
+      it.body,
     )
     v(5mm)
-//     it.body
-//     line(length: 100%)
+    //     it.body
+    //     line(length: 100%)
   }
 
   // Website-style links:
@@ -98,7 +98,7 @@
         )[
           #set text(
             // font: "TeX Gyre Heros",
-            font: "TeX Gyre Schola",
+            //             font: "TeX Gyre Schola",
             top-edge: "cap-height",
           )
 

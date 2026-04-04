@@ -133,4 +133,4 @@ possible reply first, and then replace the answer in that reply with #strong[ó±¥
 ))
 
 == See also
-+ [Q: how do you say 'to do'?](/en/doing/)
++ #link("/en/doing/")[Q: how do you say 'to do'?]
