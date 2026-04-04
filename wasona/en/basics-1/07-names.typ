@@ -4,7 +4,6 @@
 
 = lesson 7: names
 
-== Names
 Pointing at things is nice, but sometimes it\'s nice to be more specific.
 Introducing: names! A revolutionary technology that allows you to talk about
 someone or something in particular.

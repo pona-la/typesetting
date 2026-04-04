@@ -4,7 +4,6 @@
 
 = lesson 9: preverbs
 
-== Activities
 Let\'s learn some more words for things you can do!
 
 #list((

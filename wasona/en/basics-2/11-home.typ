@@ -4,8 +4,6 @@
 
 = lesson 11: home
 
-== Home
-
 There's a lot of stuff in our homes:
 
 #list((

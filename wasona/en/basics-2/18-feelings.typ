@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 18: feelings
 
 Let's learn how to be more expressive in Toki Pona!

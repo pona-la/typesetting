@@ -2,10 +2,7 @@
 
 #show: template
 
-
 = lesson 17: questions
-
-== Questions
 
 Questions usually come in two flavours:
 

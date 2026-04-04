@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 24: body
 
 We already know the words for #emph[eyes], #emph[heart], #emph[face], and
@@ -47,4 +46,3 @@ the hands touch.
     "My fingers are larger than my toes.",
   ),
 ))
-

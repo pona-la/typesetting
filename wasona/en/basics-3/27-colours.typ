@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 27: colours
 
 Let's talk colours!
@@ -59,4 +58,3 @@ I only bring it up now, because colours are the most obvious example, but the
 same actually applies to any phrase! Before using adjectives, it's often useful
 to stop and think: are these adjectives getting the important part you wanted to
 talk about, or are they just shorthand for something else?
-

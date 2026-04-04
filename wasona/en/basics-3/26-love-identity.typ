@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 26: love and identity
 
 You've already seen that #strong[󱤧󱥔󱥩󱤴 ... li pona tawa mi] is a common way to

@@ -2,10 +2,7 @@
 
 #show: template
 
-
 = lesson 6: pronouns
-
-== Pronouns
 
 You're probably tired of long sentences and parts-of-speech shenanigans. Let's
 take it down a notch, by pointing at things:

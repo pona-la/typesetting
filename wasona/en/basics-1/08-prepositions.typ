@@ -4,7 +4,6 @@
 
 = lesson 8: prepositions
 
-== Prepositions
 Now that we know some countries, let\'s talk about travel! But how do you say
 \"go to\" and \"come from\"? For that, we will need some verbs:
 

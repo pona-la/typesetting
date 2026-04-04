@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 28: moo!
 
 Just one more important word to learn, before we get to the silly part!

@@ -4,8 +4,6 @@
 
 = lesson 12: requests
 
-== Requests
-
 In Toki Pona, a sentence with #strong[󱤧 li] is a statement of fact. But
 sometimes instead of making statements of fact, we want to make requests.
 Requests are how we tell other people what we want to happen. In a request,

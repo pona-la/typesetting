@@ -2,10 +2,7 @@
 
 #show: template
 
-
 = lesson 15: with and like
-
-== With and like
 
 In lesson 8, we learned three prepositions: #strong[󱥩 tawa], #strong[󱤬 lon],
 #strong[󱥧 tan], which are all about location and direction. Toki Pona actually
@@ -104,4 +101,3 @@ Sometimes you can make very similar sentences, except one has a verb like
     "I summon land into reality.<br />I establish a territory. (verb)",
   ),
 ))
-

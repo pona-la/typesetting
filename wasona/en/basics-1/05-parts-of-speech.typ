@@ -4,7 +4,6 @@
 
 = lesson 5: parts of speech
 
-== Parts of speech
 Some of you may have spotted that I introduced the word #strong[󱥡 sona] twice,
 first as a verb \'to know\', then as an adjective \'wise\'. So which is it? And
 how do you know?

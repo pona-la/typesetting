@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 21: nature
 
 We already know most of the words for animal and plant stuff --- let's learn the

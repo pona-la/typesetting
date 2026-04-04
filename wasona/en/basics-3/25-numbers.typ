@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 25: numbers
 
 == Cardinal numbers

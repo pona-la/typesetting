@@ -2,10 +2,7 @@
 
 #show: template
 
-
 = lesson 14: negation
-
-== Negation
 
 We've just learned how to ask someone to do something. But how do we ask someone
 #emph[not] to do something? It's time to learn about negation, using #strong[󱤂
@@ -57,4 +54,3 @@ that an adjective can, it likes to attach to the first word in the verb:
 
 This actually makes a lot of sense --- negating the first word in the verb also
 negates the whole sentence, which we often want!
-

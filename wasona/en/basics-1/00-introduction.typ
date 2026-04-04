@@ -61,4 +61,4 @@ Tips to get the most out of the course:
   proficient speaker, and they'll explain it nicely. There are always people
   willing to #link("https://discord.gg/ChC6qtVsSE")[help you learn]!
 
--- kala Asi
+--- kala Asi

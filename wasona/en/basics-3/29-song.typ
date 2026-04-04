@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 29: intermission 3
 
 You've learned 131 words, and all the important grammar! So what now?

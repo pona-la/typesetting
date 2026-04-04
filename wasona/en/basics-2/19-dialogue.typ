@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 19: intermission 2
 
 We are two thirds of the way through! Now you know 79 Toki Pona words, plus some

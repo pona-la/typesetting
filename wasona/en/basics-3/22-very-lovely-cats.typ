@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 22: very lovely cats
 
 We've recently learned #strong[󱤼 mute], which is a very useful word!
@@ -85,4 +84,3 @@ parts of speech are all the same, hyphens come to the rescue.
 
 But in Toki Pona, nouns, verbs, and adjectives can all become one another. So
 they can't help! Instead, Toki Pona uses just one particle to rebracket.
-

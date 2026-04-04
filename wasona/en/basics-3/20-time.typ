@@ -2,7 +2,6 @@
 
 #show: template
 
-
 = lesson 20: time
 
 Let's talk about time! You may have noticed I translate the sentences
@@ -78,4 +77,3 @@ becomes the result: #emph['then ...'].
     "When the sun sets, I sleep.",
   ),
 ))
-
