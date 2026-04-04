@@ -6,17 +6,30 @@
     // keywords:
     // date:
   )
+
   #set page(
-    paper: "a5",
+    width: 5in,
+    height: 8in,
+    margin: (
+      top: 10mm,
+      bottom: 15mm,
+      inside: 10mm,
+      outside: 10mm,
+    ),
+  )
+
+  #set par(
+    justify: true,
+    justification-limits: (tracking: (min: -0.01em, max: 0.02em)),
   )
 
   #set page(footer: context {
-  if calc.even(counter(page).get().first()) {
-    align(right, counter(page).display("1"))
-} else {
-    align(left, counter(page).display("1"))
-  }
-})
+    if calc.even(counter(page).get().first()) {
+      align(left, counter(page).display("1"))
+    } else {
+      align(right, counter(page).display("1"))
+    }
+  })
 
   #set text(
     // font: "Noto Sans",
@@ -34,8 +47,23 @@
   #show heading: set text(
     // font: "TeX Gyre Heros",
     font: "TeX Gyre Schola",
-    top-edge: "cap-height"
+    top-edge: "cap-height",
   )
+  #show heading.where(level: 1): it => {
+    set align(center)
+    set text(size: 1.2em)
+    v(15mm)
+    underline(
+      extent: 10pt,
+      offset: 10pt,
+      stroke: 1pt,
+      it.body
+    )
+    v(5mm)
+//     it.body
+//     line(length: 100%)
+  }
+
   // Website-style links:
   // #show link: set text(
   //   fill: rgb("#d46000"),
@@ -71,7 +99,7 @@
           #set text(
             // font: "TeX Gyre Heros",
             font: "TeX Gyre Schola",
-            top-edge: "cap-height"
+            top-edge: "cap-height",
           )
 
           #item
