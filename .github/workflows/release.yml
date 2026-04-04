@@ -29,9 +29,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install fonts-texgyre
           sudo apt-get install fonts-ebgaramond
-          mkdir -p ~/.local/share/fonts/ && cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
         # "fonts-texgyre" includes "TeX Gyre Bonum", used by osawi
         # "fonts-ebgaramond" includes "EB Garamond", used by wasona
+
+      - name: Install fonts manually
+        run: |
+          mkdir -p ~/.local/share/fonts/
+          cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
 
       - name: Compile Typst file
         run: |

@@ -6,8 +6,7 @@
 
 == Describe!
 Now you know some nouns (things) and verbs (actions). Time to add adjectives
-(descriptions)! \
-Let's memorise a few of them:
+(descriptions)! Let's memorise a few of them:
 
 #list((
   word("󱥣", "suli", "large, important"),
