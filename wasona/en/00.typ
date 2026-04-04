@@ -2,6 +2,8 @@
 
 #show: template
 
+= introduction
+
 == What is Toki Pona?
 
 Toki Pona is a constructed language created in 2001 by the polyglot Sonja Lang.

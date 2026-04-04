@@ -25,10 +25,13 @@ jobs:
           sudo mv typst-*/typst /usr/local/bin/typst
 
       - name: Install dependencies
-        # "fonts-texgyre" includes "TeX Gyre Bonum", used by osawi
         run: |
           sudo apt-get update
           sudo apt-get install fonts-texgyre
+          sudo apt-get install fonts-ebgaramond
+          cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
+        # "fonts-texgyre" includes "TeX Gyre Bonum", used by osawi
+        # "fonts-ebgaramond" includes "EB Garamond", used by wasona
 
       - name: Compile Typst file
         run: |

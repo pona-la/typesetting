@@ -10,26 +10,29 @@
     paper: "a5",
   )
   #set text(
-    font: "Nunito",
+    // font: "Noto Sans",
+    font: "EB Garamond",
+    size: 1em,
   )
   #set par(
     // first-line-indent: 1em,
-    spacing: 1.5em,
+    spacing: 1.6em,
     justify: true,
-    leading: 1em,
+    leading: 0.9em,
   )
-  #show link: set text(
-    fill: rgb("#d46000"),
-    weight: "bold",
-  )
-  #show link: it => underline(it)
+  // Website-style links:
+  // #show link: set text(
+  //   fill: rgb("#d46000"),
+  //   weight: "bold",
+  // )
+  // #show link: it => underline(it)
 
   #doc
 ]
 
 #let list(items) = {
   block(
-    breakable: false,
+    // breakable: false,
     stroke: (
       left: (
         paint: rgb("#666"),
@@ -65,7 +68,7 @@
     align: (left, left),
 
     text(
-      size: 2em,
+      size: 1.8em,
       font: "nasin-nanpa",
     )[#sp],
 
@@ -78,7 +81,7 @@
 }
 
 #let sentence(sp, sl, m) = [
-  #text(size: 1.5em, font: "nasin-nanpa")[#sp]
+  #text(size: 1.4em, font: "nasin-nanpa")[#sp]
   #linebreak()
   #text[#emph[#sl]]
   #linebreak()
