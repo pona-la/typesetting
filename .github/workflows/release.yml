@@ -37,6 +37,12 @@ jobs:
           mkdir -p ~/.local/share/fonts/
           cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
 
+      - name: Install Libertinus
+        run: |
+          wget https://github.com/alerque/libertinus/releases/download/v7.051/Libertinus-7.051.zip
+          unzip Libertinus-7.051.zip
+          cp Libertinus-7.051/static/TTF/ ~/.local/share/fonts/
+
       - name: Compile Typst file
         run: |
           mkdir out

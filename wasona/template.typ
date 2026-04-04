@@ -33,7 +33,8 @@
 
   #set text(
     // font: "Noto Sans",
-    font: "TeX Gyre Schola",
+    // font: "Besley",
+    font: "Libertinus Sans",
     size: 1em,
     // This is the cap-height of Schola, and prevents sitelen pona embeds from messing with the line height
     top-edge: 0.72em,
@@ -46,7 +47,7 @@
   )
   #show heading: set text(
     // font: "TeX Gyre Heros",
-    //     font: "TeX Gyre Schola",
+//     font: "Libertinus Serif",
     top-edge: "cap-height",
   )
   #show heading.where(level: 1): it => {
@@ -60,8 +61,8 @@
       it.body,
     )
     v(5mm)
-    //     it.body
-    //     line(length: 100%)
+    // it.body
+    // line(length: 100%)
   }
 
   // Website-style links:
@@ -82,8 +83,8 @@
         paint: luma(70),
         thickness: 1pt,
         dash: "dotted",
-        //       dash: "loosely-dotted",
-        //       cap: "round",
+        // dash: "loosely-dotted",
+        // cap: "round",
       ),
     ),
     grid(
@@ -98,7 +99,7 @@
         )[
           #set text(
             // font: "TeX Gyre Heros",
-            //             font: "TeX Gyre Schola",
+            // font: "TeX Gyre Schola",
             top-edge: "cap-height",
           )
 
