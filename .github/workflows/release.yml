@@ -24,6 +24,11 @@ jobs:
           tar -xf typst.tar.xz
           sudo mv typst-*/typst /usr/local/bin/typst
 
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install fonts-texgyre
+
       - name: Compile Typst file
         run: typst compile osawi/osawi.typ osawi/osawi.pdf
 
