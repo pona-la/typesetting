@@ -22,6 +22,10 @@
     justify: true,
     leading: 0.9em,
   )
+  #show heading: set text(
+    font: "TeX Gyre Heros",
+    top-edge: "cap-height"
+  )
   // Website-style links:
   // #show link: set text(
   //   fill: rgb("#d46000"),
