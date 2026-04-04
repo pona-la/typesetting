@@ -11,8 +11,10 @@
   )
   #set text(
     // font: "Noto Sans",
-    font: "EB Garamond",
+    font: "TeX Gyre Schola",
     size: 1em,
+    // This is the cap-height of Schola, and prevents sitelen pona embeds from messing with the line height
+    top-edge: 0.72em,
   )
   #set par(
     // first-line-indent: 1em,
@@ -52,6 +54,11 @@
           inset: (x: 10pt, y: 7pt),
           outset: (x: -0.5pt, y: 0pt),
         )[
+          #set text(
+            font: "TeX Gyre Heros",
+            top-edge: "cap-height"
+          )
+
           #item
         ]
       })
