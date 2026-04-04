@@ -41,7 +41,7 @@ jobs:
         run: |
           wget https://github.com/alerque/libertinus/releases/download/v7.051/Libertinus-7.051.zip
           unzip Libertinus-7.051.zip
-          cp Libertinus-7.051/static/TTF/ ~/.local/share/fonts/
+          cp -r Libertinus-7.051/static/TTF/ ~/.local/share/fonts/
 
       - name: Compile Typst file
         run: |
