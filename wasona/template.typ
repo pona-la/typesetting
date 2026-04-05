@@ -36,7 +36,8 @@
     // font: "Besley",
     font: "Libertinus Sans",
     size: 1em,
-    // This is the cap-height of Schola, and prevents sitelen pona embeds from messing with the line height
+    // This is the cap-height of teX Gyre Schola, and prevents sitelen pona embeds from messing with the line height
+    // It should be checked and changed when the font changes
     top-edge: 0.72em,
   )
   #set par(
@@ -47,7 +48,7 @@
   )
   #show heading: set text(
     // font: "TeX Gyre Heros",
-//     font: "Libertinus Serif",
+    //     font: "Libertinus Serif",
     top-edge: "cap-height",
   )
   #show heading.where(level: 1): it => {
@@ -74,6 +75,28 @@
 
   #doc
 ]
+
+// Replace latin text with sitelen pona (using the correct font)
+#let sp(lasina) = {
+  // Keep track of the data type so we can return a string or content appropriately
+  let type = type(lasina)
+  if type == content {
+    lasina = lasina.text
+  }
+
+  // Lookups are just stored in a csv
+  let table = csv("uscur.csv")
+  for row in table {
+    lasina = lasina.replace(row.at(0), row.at(1))
+  }
+
+  // Return content or string appropriately
+  if type == content {
+    return text(font: "nasin-nanpa", lasina)
+  } else {
+    return lasina
+  }
+}
 
 #let list(items) = {
   block(
@@ -111,7 +134,7 @@
 }
 
 #let word(sp, sl, m) = {
-  // let sp_ = if sp == none { encode(sl) } else { sp }
+  if sp == "" { sp = encode(sl) }
   grid(
     columns: (auto, 1fr),
     rows: auto,
@@ -138,3 +161,72 @@
   #linebreak()
   #text[#m]
 ]
+
+// For different types of exercises
+// Todo add sentence
+#let exercise_titles = ("vocab": "Vocab")
+#let exercise_prompts = ("vocab": "Which of these means...")
+
+// Render end-of-chapter exercises
+#let exercises(id) = {
+  let exercise_data = toml("en/exercises.toml").at(id).at("exercises")
+
+  for (n, exercise) in exercise_data.enumerate(start: 1) {
+    // perhaps replace this with a numbering function?
+    let exercise_title = str(n) + ". " + exercise_titles.at(exercise.type)
+    let exercise_prompt = exercise_prompts.at(exercise.type)
+
+    [
+      #set par(spacing: 0.65em)
+      == #exercise_title
+      *#exercise_prompt*
+
+      // Right now this just renders as multiple choise - will need to add a case or smth when we support sentences
+      // (maybe break out everything below here into a "Multiple choice" function?)
+
+      #for (q, task) in exercise.tasks.enumerate(start: 1) {
+        // Show the multiple choices in alphabetical order
+        let answers = task.junk
+        answers.push(task.l2)
+        answers = answers.sorted()
+
+        [
+          #numbering("1.", q) *#task.l1*\
+          #grid(columns: (1fr, 1fr, 1fr, 1fr), column-gutter: 10pt, ..answers
+              .enumerate(start: 1)
+              .map(((i, answer)) => [
+                #numbering("A.", i) #sp(answer) #answer
+                #v(0.75em)
+              ]))
+        ]
+      }]
+  }
+}
+
+#let solutions() = {
+  let exercises = toml("en/exercises.toml")
+
+  for chapter_key in exercises.keys() {
+    let chapter = exercises.at(chapter_key)
+
+    [
+      == #chapter.at("chapter_name")
+
+      #for (exercise_num, exercise) in chapter.at("exercises").enumerate(start: 1) {
+        // Maybe simplify this with the numbering function
+        let exercise_title = str(exercise_num) + ". " + exercise_titles.at(exercise.type)
+        [
+          === #exercise_title
+
+          #for task in exercise.at("tasks") {
+            let answer = task.at("l2")
+            [
+              // Might want to render this differently for sentence answers
+              + #sp(answer) #answer
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

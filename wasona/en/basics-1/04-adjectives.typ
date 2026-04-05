@@ -68,3 +68,5 @@ Here's something interesting: in English, adjectives only go on nouns. But in
 Toki Pona, they can go on verbs too: #emph[to bite a little] \~ #emph[moku
   lili], #emph[to know well] \~ #emph[sona pona]. There is no difference between
 adjectives and adverbs in Toki Pona.
+
+#exercises("04")

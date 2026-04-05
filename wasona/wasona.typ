@@ -58,3 +58,6 @@
 #include "en/basics-3/28-moo.typ"
 #pagebreak()
 #include "en/basics-3/29-song.typ"
+#pagebreak()
+
+#include "en/solutions.typ"

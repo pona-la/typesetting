@@ -44,6 +44,8 @@ but those are guesses! The Toki Pona sentence doesn't specify if we're talking
 about "#emph[a] bird" or "#emph[the] bird". In longer conversations, it becomes
 pretty clear!
 
-\(#strong[󱤧 li] and #strong[󱤉 e] may seem unnecessary at first. We will learn
+\(#strong[#sp[li] li] and #strong[󱤉 e] may seem unnecessary at first. We will learn
 about why they are required, but to do that, we first need to learn more about
 parts of speech!)
+
+#exercises("03")
