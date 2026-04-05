@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p ~/.local/share/fonts/
           cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
-          cp wasona/assets/Marauder/ ~/.local/share/fonts/
+          cp -r wasona/assets/Marauder/ ~/.local/share/fonts/
 
       # - name: Install Libertinus
       #   run: |
