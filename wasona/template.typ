@@ -164,8 +164,8 @@
 
 // For different types of exercises
 // Todo add sentence
-#let exercise_titles = ("vocab": "Vocab")
-#let exercise_prompts = ("vocab": "Which of these means...")
+#let exercise_titles = ("vocab": "Vocab", "revise": "Revise")
+#let exercise_prompts = ("vocab": "Which of these means...", "revise": "Translate the sentence")
 
 // Render end-of-chapter exercises
 #let exercises(id) = {
@@ -181,25 +181,42 @@
       == #exercise_title
       *#exercise_prompt*
 
-      // Right now this just renders as multiple choise - will need to add a case or smth when we support sentences
-      // (maybe break out everything below here into a "Multiple choice" function?)
+      #if exercise.type == "vocab" {
+        for (q, task) in exercise.tasks.enumerate(start: 1) {
+          // Show the multiple choices in alphabetical order
+          let answers = task.junk
+          answers.push(task.l2)
+          answers = answers.sorted()
 
-      #for (q, task) in exercise.tasks.enumerate(start: 1) {
-        // Show the multiple choices in alphabetical order
-        let answers = task.junk
-        answers.push(task.l2)
-        answers = answers.sorted()
+          [
+            #numbering("1.", q) *#task.l1*\
+            #grid(columns: (1fr, 1fr, 1fr, 1fr), column-gutter: 10pt, ..answers
+                .enumerate(start: 1)
+                .map(((i, answer)) => [
+                  #sp(answer) #answer
+                ]))
+          ]
+        }
+      } else {
+        for (q, task) in exercise.tasks.enumerate(start: 1) {
+          [
+            #numbering("1.", q) #task.l1 #box(
+              stroke: (
+                bottom: (
+                  paint: luma(70),
+                  thickness: 1pt,
+                  dash: "dotted",
+                  // dash: "loosely-dotted",
+                  // cap: "round",
+                ),
+              ),
+              width: 1fr,
+            )\
+          ]
+        }
+      }
 
-        [
-          #numbering("1.", q) *#task.l1*\
-          #grid(columns: (1fr, 1fr, 1fr, 1fr), column-gutter: 10pt, ..answers
-              .enumerate(start: 1)
-              .map(((i, answer)) => [
-                #numbering("A.", i) #sp(answer) #answer
-                #v(0.75em)
-              ]))
-        ]
-      }]
+    ]
   }
 }
 
@@ -215,16 +232,24 @@
       #for (exercise_num, exercise) in chapter.at("exercises").enumerate(start: 1) {
         // Maybe simplify this with the numbering function
         let exercise_title = str(exercise_num) + ". " + exercise_titles.at(exercise.type)
+
+        let columns = 2
+        if exercise.type == "vocab" { columns = 4 }
         [
           === #exercise_title
 
-          #for task in exercise.at("tasks") {
-            let answer = task.at("l2")
-            [
-              // Might want to render this differently for sentence answers
-              + #sp(answer) #answer
-            ]
-          }
+          #grid(columns: columns * (1fr,), gutter: 0.65em, ..for (num, task) in exercise
+              .at("tasks")
+              .enumerate(start: 1) {
+              let answer = task.at("l2")
+              if exercise.type == "vocab" {
+                ([#num. #sp(answer) #answer],)
+              } else {
+                ([#num. #answer],)
+              }
+            })
+
+
         ]
       }
     ]
