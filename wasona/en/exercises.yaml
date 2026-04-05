@@ -1,0 +1,1331 @@
+"03":
+  chapter_name: "chapter 3: simple sentences"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "bird"
+          l2: "waso"
+          junkChips: ["soweli", "pipi", "kasi"]
+        - l1: "land animal"
+          l2: "soweli"
+          junkChips: ["waso", "pipi", "kasi"]
+        - l1: "bug"
+          l2: "pipi"
+          junkChips: ["soweli", "waso", "kasi"]
+        - l1: "plant"
+          l2: "kasi"
+          junkChips: ["soweli", "pipi", "waso"]
+        - l1: "to eat"
+          l2: "moku"
+          junkChips: ["kasi", "lukin", "sona"]
+        - l1: "to see"
+          l2: "lukin"
+          junkChips: ["waso", "moku", "sona"]
+        - l1: "to know"
+          l2: "sona"
+          junkChips: ["pipi", "moku", "lukin"]
+    - type: revise
+      tasks:
+        - l1: "The animal knows the bug."
+          l2: "soweli li sona e pipi."
+          junkChips: ["waso"]
+        - l1: "The bug eats plants."
+          l2: "pipi li moku e kasi."
+          junkChips: ["soweli"]
+        - l1: "The bird sees plants."
+          l2: "waso li lukin e kasi."
+          junkChips: ["moku"]
+        - l1: "The bird knows the animal."
+          l2: "waso li sona e soweli."
+          junkChips: ["pipi"]
+"04":
+  chapter_name: "lesson 4: adjectives"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "large"
+          l2: "suli"
+          junkChips: ["lili", "wawa", "sona"]
+        - l1: "small"
+          l2: "lili"
+          junkChips: ["suli", "suwi", "pona"]
+        - l1: "good"
+          l2: "pona"
+          junkChips: ["ike", "kasi", "suwi"]
+        - l1: "bad"
+          l2: "ike"
+          junkChips: ["wawa", "pipi", "suli"]
+        - l1: "strong"
+          l2: "wawa"
+          junkChips: ["suli", "soweli", "lili"]
+        - l1: "cute"
+          l2: "suwi"
+          junkChips: ["pona", "waso", "lili"]
+    - type: revise
+      tasks:
+        - l1: "a sweet animal"
+          l2: "soweli suwi"
+        - l1: "a bad insect"
+          l2: "pipi ike"
+        - l1: "a powerful bird"
+          l2: "waso wawa"
+        - l1: "The bird knows a strong animal."
+          l2: "waso li sona e soweli wawa."
+          junkChips: ["lili"]
+        - l1: "A tiny insect looks at a big animal."
+          l2: "pipi lili li lukin e soweli suli."
+          junkChips: ["wawa"]
+"05":
+  chapter_name: "lesson 5: parts of speech"
+  exercises:
+    - type: revise
+      tasks:
+        - l1: "a strong bug"
+          l2: "pipi wawa"
+        - l1: "the strength of the bug"
+          l2: "wawa pipi"
+        - l1: "a big eye"
+          l2: "lukin suli"
+        - l1: "good food"
+          l2: "moku pona"
+        - l1: "amazingly good"
+          l2: "pona wawa"
+        - l1: "the right size"
+          l2: "suli pona"
+        - l1: "too small"
+          l2: "lili ike"
+        - l1: "Food makes eyes better."
+          l2: "moku li pona e lukin."
+          junkChips: ["waso"]
+        - l1: "Animals know the cuteness of birds."
+          l2: "soweli li sona e suwi waso."
+          junkChips: ["suli"]
+"06":
+  chapter_name: "lesson 6: pronouns"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "this"
+          l2: "ni"
+          junkChips: ["mi", "sina", "ona"]
+        - l1: "me"
+          l2: "mi"
+          junkChips: ["ni", "sina", "ona"]
+        - l1: "you"
+          l2: "sina"
+          junkChips: ["ni", "mi", "ona"]
+        - l1: "they"
+          l2: "ona"
+          junkChips: ["ni", "mi", "sina"]
+    - type: revise
+      tasks:
+        - l1: "This is a sweet plant."
+          l2: "ni li kasi suwi."
+          junkChips: ["e"]
+        - l1: "These are big eyes."
+          l2: "ni li lukin suli."
+          junkChips: ["e"]
+        - l1: "Your eyes are big."
+          l2: "lukin sina li suli."
+          junkChips: ["e"]
+        - l1: "This bird is tiny."
+          l2: "waso ni li lili."
+          junkChips: ["e"]
+        - l1: "Mean bugs ate my plant."
+          l2: "pipi ike li moku e kasi mi."
+          junkChips: ["ona"]
+        - l1: "You are cute."
+          l2: "sina suwi."
+          junkChips: ["li"]
+        - l1: "I see them."
+          l2: "mi lukin e ona."
+          junkChips: ["li"]
+        - l1: "They eat well."
+          l2: "ona li moku pona."
+          junkChips: ["e"]
+    - type: revise
+      tasks:
+        - l1: "this strong beetle"
+          l2: "pipi wawa ni"
+          junkChips: ["mi"]
+          alsoAccept: ["pipi ni wawa"]
+        - l1: "I know your strengths well."
+          l2: "mi sona pona e wawa sina."
+          junkChips: ["li"]
+        - l1: "Knowing about birds is important."
+          l2: "sona waso li suli."
+          junkChips: ["e"]
+        - l1: "Their tree is too large."
+          l2: "kasi ona li suli ike."
+          junkChips: ["e"]
+        - l1: "Your help has strengthened me."
+          l2: "pona sina li wawa e mi."
+          junkChips: ["ike"]
+        - l1: "my adorable little pigeon"
+          l2: "waso lili suwi mi"
+          junkChips: ["e"]
+          alsoAccept:
+            - "waso lili mi suwi"
+            - "waso suwi lili mi"
+            - "waso suwi mi lili"
+            - "waso mi suwi lili"
+            - "waso mi lili suwi"
+"07":
+  chapter_name: "lesson 7: names"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "word"
+          l2: "nimi"
+          junkChips: ["toki", "sitelen", "sona"]
+        - l1: "person"
+          l2: "jan"
+          junkChips: ["toki", "ma", "mi"]
+        - l1: "drawing"
+          l2: "sitelen"
+          junkChips: ["nimi", "ma", "sona"]
+        - l1: "talk"
+          l2: "toki"
+          junkChips: ["jan", "tomo", "sona"]
+        - l1: "land"
+          l2: "ma"
+          junkChips: ["jan", "tomo", "sina"]
+        - l1: "building"
+          l2: "tomo"
+          junkChips: ["ma", "nimi", "kasi"]
+    - type: revise
+      tasks:
+        - l1: "I draw the land."
+          l2: "mi sitelen e ma."
+          junkChips: ["li"]
+        - l1: "Your picture is large."
+          l2: "sitelen sina li suli."
+          junkChips: ["e"]
+        - l1: "People talk about buildings."
+          l2: "jan li toki e tomo."
+          junkChips: ["ma"]
+        - l1: "Your name is Maya."
+          l2: "nimi sina li jan Maja."
+          junkChips: ["e"]
+          alsoAccept: ["sina jan Maja."]
+        - l1: "Iman speaks Arabic."
+          l2: "jan Iman li toki Alapi."
+          junkChips: ["e"]
+        - l1: "The city of Toronto is large."
+          l2: "ma tomo Towano li suli."
+          junkChips: ["e"]
+          alsoAccept: ["ma Towano li suli."]
+        - l1: "I see Cyrillic writing."
+          l2: "mi lukin e sitelen Kililisa."
+          junkChips: ["li"]
+    - type: revise
+      tasks:
+        - l1: "You have a lovely name."
+          l2: "nimi sina li suwi."
+          junkChips: ["toki"]
+        - l1: "The doghouse is sufficiently large."
+          l2: "tomo soweli li suli pona."
+          junkChips: ["e"]
+        - l1: "This writing system is the Latin alphabet."
+          l2: "sitelen ni li sitelen Lasina."
+          junkChips: ["toki"]
+          alsoAccept: ["ni li sitelen Lasina."]
+        - l1: "I am writing what you are saying."
+          l2: "mi sitelen e toki sina."
+          junkChips: ["sona"]
+        - l1: "You take a picture of people who are having a conversation."
+          l2: "sina sitelen e jan toki."
+          junkChips: ["li"]
+        - l1: "Sunita talks in French about Japan."
+          l2: "jan Sunita li toki Kanse e ma Nijon."
+          junkChips: ["e"]
+
+"08":
+  chapter_name: "lesson 8: prepositions"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "to remove"
+          l2: "weka"
+          junkChips: ["pana", "kama", "ma"]
+        - l1: "to give"
+          l2: "pana"
+          junkChips: ["weka", "awen", "sona"]
+        - l1: "to come"
+          l2: "kama"
+          junkChips: ["weka", "awen", "pana"]
+        - l1: "to stay"
+          l2: "awen"
+          junkChips: ["kama", "weka", "pana"]
+        - l1: "towards"
+          l2: "tawa"
+          junkChips: ["lon", "e", "tan"]
+        - l1: "at"
+          l2: "lon"
+          junkChips: ["e", "tan", "tawa"]
+        - l1: "from"
+          l2: "tan"
+          junkChips: ["tawa", "lon", "e"]
+    - type: revise
+      tasks:
+        - l1: "in England"
+          l2: "lon ma Inli"
+        - l1: "to Ali"
+          l2: "tawa jan Ali"
+        - l1: "You remove the bug from the house."
+          l2: "sina weka e pipi tan tomo."
+          junkChips: ["li"]
+        - l1: "I like plants. (Plants are good to me.)"
+          l2: "kasi li pona tawa mi."
+          junkChips: ["e"]
+        - l1: "I gave the bird a caterpillar."
+          l2: "mi pana e pipi tawa waso."
+          junkChips: ["li"]
+        - l1: "People stay in the house."
+          l2: "jan li awen lon tomo."
+          junkChips: ["e"]
+        - l1: "Noah goes to France."
+          l2: "jan Nowa li tawa ma Kanse."
+          junkChips: ["e"]
+        - l1: "Toronto is in Canada."
+          l2: "ma tomo Towano li lon ma Kanata."
+          junkChips: ["e"]
+          alsoAccept: ["ma Towano li lon ma Kanata."]
+    - type: revise
+      tasks:
+        - l1: "There is a bird in the restaurant."
+          l2: "waso li lon tomo moku."
+          junkChips: ["e"]
+        - l1: "My cat ran away from me."
+          l2: "soweli mi li weka tan mi."
+          junkChips: ["e"]
+        - l1: "I stay because of you."
+          l2: "mi awen tan sina."
+          junkChips: ["e"]
+        - l1: "Geography is important to me."
+          l2: "sona ma li suli tawa mi."
+          junkChips: ["e"]
+        - l1: "San Francisco is in the United States."
+          l2: "ma Sanpansiko li lon ma Mewika."
+          junkChips: ["e"]
+        - l1: "The bird protects its nest."
+          l2: "waso li awen e tomo ona."
+          junkChips: ["tawa"]
+"09":
+  chapter_name: "lesson 9: activities"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "fight"
+          l2: "utala"
+          junkChips: ["weka", "kalama", "wile"]
+        - l1: "sleep"
+          l2: "lape"
+          junkChips: ["ona", "nasa", "musi"]
+        - l1: "funny"
+          l2: "musi"
+          junkChips: ["ma", "kalama", "alasa"]
+        - l1: "strange"
+          l2: "nasa"
+          junkChips: ["ma", "wile", "utala"]
+        - l1: "sound"
+          l2: "kalama"
+          junkChips: ["pana", "sona", "musi"]
+        - l1: "want"
+          l2: "wile"
+          junkChips: ["ken", "alasa", "lape"]
+        - l1: "can"
+          l2: "ken"
+          junkChips: ["alasa", "waso", "kalama"]
+        - l1: "try"
+          l2: "alasa"
+          junkChips: ["pipi", "ni", "wile"]
+    - type: revise
+      tasks:
+        - l1: "fight"
+          l2: "utala"
+          junkChips: ["weka", "kalama", "wile"]
+        - l1: "sleep"
+          l2: "lape"
+          junkChips: ["ona", "nasa", "musi"]
+        - l1: "funny"
+          l2: "musi"
+          junkChips: ["ma", "kalama", "alasa"]
+        - l1: "strange"
+          l2: "nasa"
+          junkChips: ["ma", "wile", "utala"]
+        - l1: "sound"
+          l2: "kalama"
+          junkChips: ["pana", "sona", "musi"]
+        - l1: "want"
+          l2: "wile"
+          junkChips: ["ken", "alasa", "lape"]
+        - l1: "can"
+          l2: "ken"
+          junkChips: ["alasa", "waso", "kalama"]
+        - l1: "try"
+          l2: "alasa"
+          junkChips: ["pipi", "ni", "wile"]
+    - type: revise
+      tasks:
+        - l1: "The bird still wants to sleep."
+          l2: "waso li awen wile lape."
+          junkChips: ["e"]
+        - l1: "The bug wants to be strong."
+          l2: "pipi li wile wawa."
+          junkChips: ["e"]
+        - l1: "Fighting requires strength."
+          l2: "utala li wile e wawa."
+          junkChips: ["pipi"]
+        - l1: "I begin to sing out of joy."
+          l2: "mi kama kalama tan musi."
+          junkChips: ["e"]
+        - l1: "The players try to find the absent person."
+          l2: "jan musi li alasa lukin e jan weka."
+          junkChips: ["li"]
+          alsoAccept: ["jan musi li alasa e jan weka."]
+"11":
+  chapter_name: "lesson 11: home"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "tool"
+          l2: "ilo"
+          junkChips: ["lipu", "poki", "open"]
+        - l1: "document"
+          l2: "lipu"
+          junkChips: ["len", "sona", "open"]
+        - l1: "box"
+          l2: "poki"
+          junkChips: ["open", "len", "lipu"]
+        - l1: "shelf"
+          l2: "supa"
+          junkChips: ["len", "lon", "pini"]
+        - l1: "hole"
+          l2: "lupa"
+          junkChips: ["pona", "musi", "ijo"]
+        - l1: "cover"
+          l2: "len"
+          junkChips: ["open", "poki", "lipu"]
+        - l1: "open"
+          l2: "open"
+          junkChips: ["ilo", "poki", "jo"]
+        - l1: "close"
+          l2: "pini"
+          junkChips: ["pipi", "ilo", "tomo"]
+        - l1: "hold"
+          l2: "jo"
+          junkChips: ["ijo", "musi", "lupa"]
+        - l1: "something"
+          l2: "ijo"
+          junkChips: ["toki", "jan", "lape"]
+    - type: revise
+      tasks:
+        - l1: "You close the door."
+          l2: "sina pini e lupa."
+          junkChips: ["supa"]
+        - l1: "There is a cat in my house."
+          l2: "soweli li lon tomo mi."
+          junkChips: ["e"]
+        - l1: "My house contains a cat."
+          l2: "tomo mi li jo e soweli."
+          junkChips: ["ni"]
+        - l1: "Your bird needs food."
+          l2: "waso sina li wile e moku."
+          junkChips: ["ona"]
+        - l1: "Sunita can sing well."
+          l2: "jan Sunita li ken kalama pona."
+          junkChips: ["e"]
+        - l1: "I want to speak about a sewing machine."
+          l2: "mi wile toki e ilo len."
+          junkChips: ["li"]
+    - type: revise
+      tasks:
+        - l1: "Cats hunt birds."
+          l2: "soweli li alasa e waso."
+          junkChips: ["wile"]
+        - l1: "This chest requires a key."
+          l2: "poki ni li wile e ilo open."
+          junkChips: ["ijo"]
+        - l1: "She covered the sleeping child (with a blanket)."
+          l2: "ona li len e jan lili lape."
+          junkChips: ["lon"]
+          alsoAccept: ["ona li len e jan lape lili."]
+        - l1: "Someone put the book about bugs on the desk."
+          l2: "jan li pana e lipu pipi tawa supa."
+          junkChips: ["pona"]
+        - l1: "The website called Wikipedia shares useful knowledge."
+          l2: "lipu Wikipesija li pana e sona pona."
+          junkChips: ["tawa"]
+"12":
+  chapter_name: "lesson 12: requests"
+  exercises:
+    - type: revise
+      tasks:
+        - l1: "Emma, try to sleep!"
+          l2: "jan Ema o alasa lape!"
+          junkChips: ["e"]
+        - l1: "Hey bird, sing to me!"
+          l2: "waso o kalama tawa mi!"
+          junkChips: ["e"]
+        - l1: "Hey, Kenta!"
+          l2: "jan Kenta o!"
+          junkChips: ["li"]
+        - l1: "Talk to Nina!"
+          l2: "o toki tawa jan Nina!"
+          junkChips: ["li"]
+        - l1: "Draw something strange!"
+          l2: "o sitelen e ijo nasa!"
+          junkChips: ["li"]
+        - l1: "Maya, give me the spoon!"
+          l2: "jan Maja o pana e ilo moku tawa mi!"
+          junkChips: ["li"]
+          alsoAccept: ["jan Maja o pana e ilo tawa mi!"]
+    - type: revise
+      tasks:
+        - l1: "Sing something nice!"
+          l2: "o kalama e ijo pona!"
+          junkChips: ["ilo"]
+          alsoAccept: ["o kalama pona!", "o kalama pona e ijo!"]
+        - l1: "Get out of the cave!"
+          l2: "o weka tan lupa ma!"
+          junkChips: ["e"]
+        - l1: "The article should talk about Singapore."
+          l2: "lipu o toki e ma Sinkapo."
+          junkChips: ["li"]
+        - l1: "Hey Noah, your dog wants to have fun!"
+          l2: "jan Nowa o, soweli sina li wile musi!"
+          junkChips: ["e"]
+        - l1: "Hey Iman, please stay in bed."
+          l2: "jan Iman o awen lon supa lape."
+          junkChips: ["e"]
+          alsoAccept: ["jan Iman o awen lon supa."]
+
+"13":
+  chapter_name: "lesson 13: elements"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "air"
+          l2: "kon"
+          junkChips: ["telo", "seli", "sewi"]
+        - l1: "water"
+          l2: "telo"
+          junkChips: ["kon", "ijo", "lete"]
+        - l1: "soft solid"
+          l2: "ko"
+          junkChips: ["ijo", "kiwen", "tomo"]
+        - l1: "hard solid"
+          l2: "kiwen"
+          junkChips: ["tomo", "ko", "suli"]
+        - l1: "heat"
+          l2: "seli"
+          junkChips: ["pana", "toki", "kon"]
+        - l1: "cold"
+          l2: "lete"
+          junkChips: ["weka", "lili", "kiwen"]
+        - l1: "divine"
+          l2: "sewi"
+          junkChips: ["seli", "suwi", "suli"]
+    - type: revise
+      tasks:
+        - l1: "in the sky"
+          l2: "lon sewi"
+        - l1: "a cold land"
+          l2: "ma lete"
+        - l1: "geology"
+          l2: "sona kiwen"
+        - l1: "The sky gives off cold water."
+          l2: "sewi li pana e telo lete."
+          junkChips: ["seli"]
+        - l1: "She likes sweet water."
+          l2: "telo suwi li pona tawa ona."
+          junkChips: ["suli"]
+        - l1: "Clay may harden."
+          l2: "ko li ken kama kiwen."
+          junkChips: ["kon"]
+        - l1: "Please wash your clothes!"
+          l2: "o telo e len sina!"
+          junkChips: ["lete"]
+        - l1: "Learn the meaning of the word!"
+          l2: "o kama sona e kon nimi!"
+          junkChips: ["ko"]
+        - l1: "Milana studies the holy book."
+          l2: "jan Milana li kama sona e lipu sewi."
+          junkChips: ["suwi"]
+    - type: revise
+      tasks:
+        - l1: "Finland is a cold country."
+          l2: "ma Sumi li ma lete."
+          junkChips: ["e"]
+        - l1: "May the divine protect you!"
+          l2: "sewi o awen e sina!"
+          junkChips: ["ken"]
+        - l1: "The water froze because of the cold."
+          l2: "telo li kama kiwen tan lete."
+          junkChips: ["e"]
+        - l1: "The singing person forcefully breathes out air."
+          l2: "jan kalama li pana wawa e kon."
+          junkChips: ["tan"]
+        - l1: "This vile manuscript shall burn!"
+          l2: "lipu ike ni o seli!"
+          junkChips: ["li"]
+          alsoAccept: ["lipu ni ike o seli!"]
+"14":
+  chapter_name: "lesson 14: negation"
+  exercises:
+    - type: revise
+      tasks:
+        - l1: "You do not eat bugs."
+          l2: "sina moku ala e pipi."
+          junkChips: ["li"]
+        - l1: "People do not know me."
+          l2: "jan li sona ala e mi."
+          junkChips: ["o"]
+        - l1: "No one knows me."
+          l2: "jan ala li sona e mi."
+          junkChips: ["o"]
+        - l1: "Millie does not want the book."
+          l2: "jan Mili li wile ala e lipu."
+          junkChips: ["tawa"]
+        - l1: "Birds cannot draw houses."
+          l2: "waso li ken ala sitelen e tomo."
+          junkChips: ["lon"]
+        - l1: "Anna does not go to Germany."
+          l2: "jan Ana li tawa ala ma Tosi."
+          junkChips: ["e"]
+        - l1: "Iman is not in the US."
+          l2: "jan Iman li lon ala ma Mewika."
+          junkChips: ["e"]
+    - type: revise
+      tasks:
+        - l1: "You cannot sleep."
+          l2: "sina ken ala lape."
+          junkChips: ["li"]
+        - l1: "You may be awake."
+          l2: "sina ken lape ala."
+          junkChips: ["li"]
+        - l1: "The country of Turkey is not a bird."
+          l2: "ma Tuki li waso ala."
+          junkChips: ["e"]
+        - l1: "Egypt is not in Europe."
+          l2: "ma Masu li lon ala ma Elopa."
+          junkChips: ["Mewika"]
+        - l1: "Do not idolise people."
+          l2: "o sewi ala e jan."
+          junkChips: ["suwi"]
+        - l1: "Countries should not fight one another!"
+          l2: "ma o utala ala e ma!"
+          junkChips: ["li"]
+"15":
+  chapter_name: "lesson 15: with and like"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "similar"
+          l2: "sama"
+          junkChips: ["telo", "lon", "pini"]
+        - l1: "using"
+          l2: "kepeken"
+          junkChips: ["ilo", "pana", "moku"]
+        - l1: "brick"
+          l2: "leko"
+          junkChips: ["lipu", "open", "nimi"]
+        - l1: "change"
+          l2: "ante"
+          junkChips: ["weka", "lete", "ala"]
+        - l1: "work"
+          l2: "pali"
+          junkChips: ["pana", "moku", "kepeken"]
+    - type: revise
+      tasks:
+        - l1: "I changed my name."
+          l2: "mi ante e nimi mi."
+          junkChips: ["li"]
+        - l1: "Learning is a lot of effort."
+          l2: "kama sona li pali suli."
+          junkChips: ["e"]
+        - l1: "He has fun using drawings."
+          l2: "ona li musi kepeken sitelen."
+          junkChips: ["e"]
+        - l1: "Ali fixed the desk with glue."
+          l2: "jan Ali li pona e supa kepeken ko."
+          junkChips: ["sona"]
+        - l1: "I sing like Noah."
+          l2: "mi kalama sama jan Nowa."
+          junkChips: ["e"]
+        - l1: "I use Wikipedia."
+          l2: "mi kepeken lipu Wikipesija."
+          junkChips: ["li"]
+        - l1: "This rock is like a cat."
+          l2: "kiwen ni li sama soweli."
+          junkChips: ["e"]
+        - l1: "I don't want to move."
+          l2: "mi wile ala tawa."
+          junkChips: ["pali"]
+        - l1: "The large bird moves like an animal."
+          l2: "waso suli li tawa sama soweli."
+          junkChips: ["e"]
+    - type: revise
+      tasks:
+        - l1: "I translate."
+          l2: "mi ante e toki."
+          junkChips: ["li"]
+        - l1: "You are still working on a novel."
+          l2: "sina awen pali e lipu suli."
+          junkChips: ["li"]
+        - l1: "Be good to other people!"
+          l2: "o pona tawa jan ante!"
+          junkChips: ["e"]
+        - l1: "People use the Latin alphabet in Turkey."
+          l2: "jan li kepeken sitelen Lasina lon ma Tuki."
+          junkChips: ["toki"]
+        - l1: "I can go to Brazil using a travel document."
+          l2: "mi ken tawa ma Pasiju kepeken lipu tawa."
+          junkChips: ["e"]
+        - l1: "Please forcefully move the box."
+          l2: "o tawa wawa e poki."
+          junkChips: ["li"]
+"16":
+  chapter_name: "lesson 16: society"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "group"
+          l2: "kulupu"
+          junkChips: ["ijo", "mute", "esun"]
+        - l1: "way"
+          l2: "nasin"
+          junkChips: ["ni", "pini", "alasa"]
+        - l1: "trade"
+          l2: "esun"
+          junkChips: ["ona", "jo", "kulupu"]
+        - l1: "money"
+          l2: "mani"
+          junkChips: ["jan", "ijo", "toki"]
+        - l1: "dead"
+          l2: "moli"
+          junkChips: ["jan", "mani", "ijo"]
+        - l1: "many"
+          l2: "mute"
+          junkChips: ["kon", "pini", "nasin"]
+    - type: revise
+      tasks:
+        - l1: "My plant died because of bugs."
+          l2: "kasi mi li moli tan pipi."
+          junkChips: ["e"]
+        - l1: "A flock of birds flew into the sky."
+          l2: "kulupu waso li tawa sewi."
+          junkChips: ["e"]
+        - l1: "The child wants to look at a lot of pictures."
+          l2: "jan lili li wile lukin e sitelen mute."
+          junkChips: ["tan"]
+        - l1: "Many people have fun together."
+          l2: "jan mute li musi lon kulupu."
+          junkChips: ["sitelen"]
+        - l1: "Many roads go to Rome."
+          l2: "nasin mute li tawa ma tomo Loma."
+          junkChips: ["e"]
+          alsoAccept: ["nasin mute li tawa ma Loma."]
+        - l1: "This phone costs a lot of money."
+          l2: "ilo ni li wile e mani mute."
+          junkChips: ["mi"]
+    - type: revise
+      tasks:
+        - l1: "My sports team is awesome!"
+          l2: "kulupu musi mi li wawa!"
+          junkChips: ["e"]
+          alsoAccept: ["kulupu mi musi li wawa!"]
+        - l1: "The young child moves around a lot."
+          l2: "jan lili li tawa mute."
+          junkChips: ["e"]
+        - l1: "People should not kill people."
+          l2: "jan o moli ala e jan."
+          junkChips: ["li"]
+        - l1: "Other countries use other currencies."
+          l2: "ma ante li kepeken mani ante."
+          junkChips: ["ni"]
+        - l1: "There are many shops on this street."
+          l2: "tomo esun mute li lon nasin ni."
+          junkChips: ["e"]
+          alsoAccept:
+            - "esun mute li lon nasin ni."
+            - "esun mute li lon nasin tomo ni."
+            - "esun mute li lon nasin ni tomo."
+            - "tomo mute esun li lon nasin ni."
+"17":
+  chapter_name: "lesson 17: questions"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "or"
+          l2: "anu"
+          junkChips: ["ala", "lete", "ante"]
+        - l1: "what"
+          l2: "seme"
+          junkChips: ["jo", "esun", "o"]
+    - type: revise
+      tasks:
+        - l1: "Does tobacco make the air foul?"
+          l2: "kasi nasa li ike ala ike e kon?"
+          junkChips: ["leko"]
+        - l1: "Is this a brick?"
+          l2: "ni li leko ala leko?"
+          junkChips: ["e"]
+        - l1: "Can you sing like a bird?"
+          l2: "sina ken ala ken kalama sama waso?"
+          junkChips: ["e"]
+        - l1: "Do you use Google?"
+          l2: "sina kepeken ala kepeken ilo Kuko?"
+          junkChips: ["li"]
+        - l1: "Am I in Italy?"
+          l2: "mi lon ala lon ma Italija?"
+          junkChips: ["e"]
+        - l1: "This requires money, right?"
+          l2: "ni li wile e mani anu seme?"
+          junkChips: ["tawa"]
+        - l1: "You speak German, right?"
+          l2: "sina toki Tosi anu seme?"
+          junkChips: ["Inli"]
+        - l1: "Where is Japan?"
+          l2: "ma Nijon li lon seme?"
+          junkChips: ["e"]
+        - l1: "Who is from India?"
+          l2: "jan seme li tan ma Palata?"
+          junkChips: ["e"]
+        - l1: "What do you want to eat?"
+          l2: "sina wile moku e seme?"
+          junkChips: ["li"]
+          alsoAccept: ["sina wile e moku seme?"]
+    - type: revise
+      tasks:
+        - l1: "Death is bad, right?"
+          l2: "moli li ike anu seme?"
+          junkChips: ["ala"]
+        - l1: "Which animal ate my plant?"
+          l2: "soweli seme li moku e kasi mi?"
+          junkChips: ["anu"]
+        - l1: "Does the radio require electricity?"
+          l2: "ilo kalama li wile ala wile e wawa?"
+          junkChips: ["seme"]
+        - l1: "Are you going to Korea?"
+          l2: "sina tawa ala tawa ma Anku?"
+          junkChips: ["e"]
+        - l1: "Is this a spoon?"
+          l2: "ni li ilo ala ilo moku?"
+          junkChips: ["e"]
+        - l1: "Which languages do you like?"
+          l2: "toki seme li pona tawa sina?"
+          junkChips: ["anu"]
+        - l1: "Which languages can Emma speak?"
+          l2: "jan Ema li ken toki seme?"
+          junkChips: ["e"]
+"18":
+  chapter_name: "lesson 18: feelings"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "feel"
+          l2: "pilin"
+          junkChips: ["wile", "musi", "lupa"]
+        - l1: "dirty"
+          l2: "jaki"
+          junkChips: ["nasa", "esun", "monsuta"]
+        - l1: "scary"
+          l2: "monsuta"
+          junkChips: ["utala", "pakala", "kalama"]
+        - l1: "harm"
+          l2: "pakala"
+          junkChips: ["lipu", "sitelen", "len"]
+        - l1: "ah"
+          l2: "a"
+          junkChips: ["o", "nasin", "pini"]
+    - type: revise
+      tasks:
+        - l1: "I feel bad because of work."
+          l2: "mi pilin ike tan pali."
+          junkChips: ["ala"]
+        - l1: "Please remove the filth!"
+          l2: "o weka e jaki!"
+          junkChips: ["pipi"]
+        - l1: "Welcome! This is a language group."
+          l2: "kama pona! ni li kulupu toki."
+          junkChips: ["e"]
+        - l1: "I see. I should sing like you."
+          l2: "sona. mi o kalama sama sina."
+          junkChips: ["e"]
+        - l1: "Hello! You are Emma, right?"
+          l2: "toki! sina jan Ema anu seme?"
+          junkChips: ["li"]
+        - l1: "What has scared the little bunny?"
+          l2: "seme li monsuta e soweli lili?"
+          junkChips: ["o"]
+        - l1: "Did the large animal damage the house?"
+          l2: "soweli suli li pakala ala pakala e tomo?"
+          junkChips: ["seli"]
+    - type: revise
+      tasks:
+        - l1: "You made this? Epic!"
+          l2: "sina pali e ni anu seme? wawa!"
+          junkChips: ["ala"]
+        - l1: "I am upset because of my mistakes."
+          l2: "mi pilin ike tan pakala mi."
+          junkChips: ["e"]
+        - l1: "Oh. This is not important."
+          l2: "a. ni li suli ala."
+          junkChips: ["o."]
+        - l1: "This animal feels scared because of the ocean."
+          l2: "soweli ni li pilin monsuta tan telo suli."
+          junkChips: ["sewi"]
+"20":
+  chapter_name: "lesson 20: time"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "as for"
+          l2: "la"
+          junkChips: ["li", "e", "kon"]
+        - l1: "time"
+          l2: "tenpo"
+          junkChips: ["ijo", "toki", "sike"]
+        - l1: "circle"
+          l2: "sike"
+          junkChips: ["ijo", "mani", "jan"]
+        - l1: "moon"
+          l2: "mun"
+          junkChips: ["ijo", "tenpo", "suno"]
+        - l1: "sun"
+          l2: "suno"
+          junkChips: ["mani", "ijo", "seli"]
+        - l1: "new"
+          l2: "sin"
+          junkChips: ["weka", "lon", "ante"]
+        - l1: "side"
+          l2: "poka"
+          junkChips: ["poki", "open", "lipu"]
+    - type: revise
+      tasks:
+        - l1: "Plants photosynthesise."
+          l2: "kasi li moku e suno."
+          junkChips: ["o"]
+        - l1: "The Moon moves along an ellipse."
+          l2: "mun li tawa lon sike."
+          junkChips: ["suno"]
+          alsoAccept: ["mun li tawa sike."]
+        - l1: "They are by your side."
+          l2: "ona li lon poka sina."
+          junkChips: ["e"]
+        - l1: "I used to be a child."
+          l2: "tenpo pini la mi lili."
+          junkChips: ["li"]
+        - l1: "Funnily enough, the bird speaks like a person."
+          l2: "musi la waso li toki sama jan."
+          junkChips: ["e"]
+        - l1: "When it is cold, bugs disappear."
+          l2: "kon li lete la, pipi li weka."
+          junkChips: ["seme"]
+        - l1: "You may if you want."
+          l2: "sina wile la, sina ken."
+          junkChips: ["kon"]
+    - type: revise
+      tasks:
+        - l1: "Perhaps, she should sleep."
+          l2: "ken la ona o lape."
+          junkChips: ["li"]
+        - l1: "Thankfully, the war has ended."
+          l2: "pona la utala li pini."
+          junkChips: ["jo"]
+        - l1: "In case of fire, break glass."
+          l2: "seli la o pakala e kiwen."
+          junkChips: ["li"]
+        - l1: "In my opinion, these clothes are nice."
+          l2: "mi la len ni li pona."
+          junkChips: ["o"]
+        - l1: "True, other methods are possible."
+          l2: "lon la nasin ante li ken."
+          junkChips: ["e"]
+        - l1: "Nevertheless, get out of my house."
+          l2: "awen la o weka tan tomo mi."
+          junkChips: ["e"]
+
+"21":
+  chapter_name: "lesson 21: nature"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "lizard"
+          l2: "akesi"
+          junkChips: ["pipi", "soweli", "waso"]
+        - l1: "fish"
+          l2: "kala"
+          junkChips: ["akesi", "lape", "misikeke"]
+        - l1: "bread"
+          l2: "pan"
+          junkChips: ["lili", "suli", "pipi"]
+        - l1: "fruit"
+          l2: "kili"
+          junkChips: ["pilin", "wile", "namako"]
+        - l1: "mushroom"
+          l2: "soko"
+          junkChips: ["kili", "kalama", "ike"]
+        - l1: "medicine"
+          l2: "misikeke"
+          junkChips: ["akesi", "kala", "alasa"]
+        - l1: "spice"
+          l2: "namako"
+          junkChips: ["kili", "ko", "pana"]
+    - type: revise
+      tasks:
+        - l1: "Fungi consume diseased plants."
+          l2: "soko li moku e kasi moli."
+          junkChips: ["mani"]
+        - l1: "Bake the dough."
+          l2: "o seli e ko pan."
+          junkChips: ["sewi"]
+        - l1: "I dug up the potato."
+          l2: "mi weka e kili tan ma."
+          junkChips: ["o"]
+        - l1: "Plants need water, sunlight, and land."
+          l2: "kasi li wile e telo, e suno, e ma."
+          junkChips: ["soko"]
+        - l1: "People talk, have fun, sing, and sleep."
+          l2: "jan li toki, li musi, li kalama, li lape."
+          junkChips: ["e"]
+    - type: revise
+      tasks:
+        - l1: "Can fish eat bread?"
+          l2: "kala li ken ala ken moku e pan?"
+          junkChips: ["seme"]
+        - l1: "Should your pizza include sweet fruit?"
+          l2: "pan sina o jo ala jo e kili suwi?"
+          junkChips: ["li"]
+        - l1: "Do not eat rotten fruit and strange mushrooms."
+          l2: "o moku ala e kili jaki e soko nasa."
+          junkChips: ["pan"]
+        - l1: "Frogs can be in water and on land."
+          l2: "akesi li ken lon telo li ken lon ma."
+          junkChips: ["sewi"]
+          alsoAccept: ["akesi li ken lon telo lon ma."]
+"22":
+  chapter_name: "lesson 22: very lovely cats"
+  exercises:
+    - type: revise
+      tasks:
+        - l1: "a lot of snow"
+          l2: "ko lete mute"
+          junkChips: ["pi"]
+          alsoAccept: ["ko mute lete"]
+        - l1: "very cold snow"
+          l2: "ko pi lete mute"
+        - l1: "my many mistakes"
+          l2: "pakala mi mute"
+          junkChips: ["pi"]
+          alsoAccept: ["pakala mute mi"]
+        - l1: "our mistake"
+          l2: "pakala pi mi mute"
+        - l1: "the other language-book"
+          l2: "lipu toki ante"
+          junkChips: ["pi"]
+          alsoAccept: ["lipu ante toki"]
+        - l1: "a book in another language"
+          l2: "lipu pi toki ante"
+        - l1: "someone's small room"
+          l2: "tomo jan lili"
+          junkChips: ["pi"]
+          alsoAccept: ["tomo lili jan"]
+        - l1: "A room for someone small"
+          l2: "tomo pi jan lili"
+"23":
+  chapter_name: "lesson 23: places"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "outer shell"
+          l2: "selo"
+          junkChips: ["supa", "len", "poka"]
+        - l1: "inner part"
+          l2: "insa"
+          junkChips: ["poki", "poka", "anpa"]
+        - l1: "front"
+          l2: "sinpin"
+          junkChips: ["monsi", "anpa", "poka"]
+        - l1: "back"
+          l2: "monsi"
+          junkChips: ["sinpin", "anpa", "poka"]
+        - l1: "bottom"
+          l2: "anpa"
+          junkChips: ["insa", "sinpin", "monsi"]
+    - type: revise
+      tasks:
+        - l1: "The tree bark protects the insides of a plant."
+          l2: "selo kasi li awen e insa kasi."
+          junkChips: ["pi"]
+        - l1: "The walls of a house are damaged."
+          l2: "sinpin tomo li pakala."
+          junkChips: ["pi"]
+        - l1: "The wall of this house requires bricks."
+          l2: "sinpin pi tomo ni li wile e leko."
+          junkChips: ["telo"]
+        - l1: "Sunita's bird is cute."
+          l2: "waso pi jan Sunita li suwi."
+          junkChips: ["e"]
+        - l1: "Belgium is next to France."
+          l2: "ma Pesije li lon poka pi ma Kanse."
+          junkChips: ["e"]
+        - l1: "Your frog is behind mine."
+          l2: "akesi sina li lon monsi pi akesi mi."
+          junkChips: ["e"]
+    - type: revise
+      tasks:
+        - l1: "The Toki Pona community is growing."
+          l2: "kulupu pi toki pona li kama suli."
+          junkChips: ["e"]
+        - l1: "How many people are there in Egypt?"
+          l2: "jan pi mute seme li lon ma Masu?"
+          junkChips: ["e"]
+        - l1: "Do you know any Dutch people?"
+          l2: "sina sona ala sona e jan pi ma Netelan?"
+          junkChips: ["seme"]
+        - l1: "This book is by an anonymous author."
+          l2: "lipu ni li tan jan pi nimi ala."
+          junkChips: ["e"]
+        - l1: "Ali wants to visit the geographical institute."
+          l2: "jan Ali li wile tawa tomo pi sona ma."
+          junkChips: ["e"]
+"24":
+  chapter_name: "lesson 24: body"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "body"
+          l2: "sijelo"
+          junkChips: ["len", "selo", "supa"]
+        - l1: "hand"
+          l2: "luka"
+          junkChips: ["pana", "moku", "pali"]
+        - l1: "foot"
+          l2: "noka"
+          junkChips: ["kama", "tawa", "awen"]
+        - l1: "head"
+          l2: "lawa"
+          junkChips: ["misikeke", "ijo", "moli"]
+        - l1: "ear"
+          l2: "kute"
+          junkChips: ["la", "tenpo", "mun"]
+        - l1: "mouth"
+          l2: "uta"
+          junkChips: ["kalama", "moku", "soko"]
+        - l1: "bump"
+          l2: "nena"
+          junkChips: ["palisa", "lupa", "ike"]
+        - l1: "rod"
+          l2: "palisa"
+          junkChips: ["nena", "lupa", "misikeke"]
+        - l1: "rope"
+          l2: "linja"
+          junkChips: ["telo", "kon", "sama"]
+    - type: revise
+      tasks:
+        - l1: "I have a headache."
+          l2: "lawa mi li pakala."
+          junkChips: ["kala"]
+          alsoAccept: ["mi pakala lawa."]
+        - l1: "You obey. I command."
+          l2: "sina kute. mi lawa."
+          junkChips: ["luka"]
+        - l1: "Spice feels hot to my mouth."
+          l2: "namako li seli tawa uta mi."
+          junkChips: ["e"]
+        - l1: "Please pet the lovely dog!"
+          l2: "o luka e soweli suwi!"
+          junkChips: ["sewi"]
+        - l1: "Are there hills in the Netherlands?"
+          l2: "nena li lon ala lon ma Netelan?"
+          junkChips: ["e"]
+        - l1: "Medicine heals her body."
+          l2: "misikeke li pona e sijelo ona."
+          junkChips: ["pi"]
+        - l1: "Her hair is nice to the touch."
+          l2: "linja lawa ona li pona tawa luka."
+          junkChips: ["e"]
+          alsoAccept: ["linja ona li pona tawa luka."]
+    - type: revise
+      tasks:
+        - l1: "I heard a faint sound."
+          l2: "mi kute e kalama lili."
+          junkChips: ["li"]
+        - l1: "Can birds fly using wings?"
+          l2: "waso li ken ala ken tawa kepeken luka?"
+          junkChips: ["seme"]
+        - l1: "Anna wants to be the chancellor of Germany."
+          l2: "jan Ana li wile lawa e ma Tosi."
+          junkChips: ["jan"]
+        - l1: "The mountain is similar to the nose on my face."
+          l2: "nena kiwen li sama nena pi sinpin mi."
+          junkChips: ["e"]
+        - l1: "Rich people do not listen to poor people."
+          l2: "jan pi mani mute li kute ala e jan pi mani lili."
+          junkChips: ["seme"]
+"25":
+  chapter_name: "lesson 25: numbers"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "number"
+          l2: "nanpa"
+          junkChips: ["mute", "sama", "li"]
+        - l1: "one"
+          l2: "wan"
+          junkChips: ["pini", "nasin", "ni"]
+        - l1: "two"
+          l2: "tu"
+          junkChips: ["sama", "mute", "kipisi"]
+        - l1: "every"
+          l2: "ale"
+          junkChips: ["kala", "linja", "ala"]
+        - l1: "split"
+          l2: "kipisi"
+          junkChips: ["anu", "ken", "weka"]
+    - type: revise
+      tasks:
+        - l1: "eight"
+          l2: "luka tu wan"
+          junkChips: ["tu"]
+        - l1: "You slice the bread."
+          l2: "sina kipisi e pan."
+          junkChips: ["li"]
+        - l1: "The two of us join together."
+          l2: "mi tu li kama wan."
+          junkChips: ["pi"]
+        - l1: "I can speak three languages."
+          l2: "mi sona e toki tu wan."
+          junkChips: ["luka"]
+        - l1: "5 Euro"
+          l2: "mani luka pi ma Elopa"
+          junkChips: ["tu"]
+        - l1: "April begins."
+          l2: "tenpo mun nanpa tu tu li open."
+          junkChips: ["suno"]
+          alsoAccept: ["mun nanpa tu tu li open."]
+"26":
+  chapter_name: "lesson 26: love and identity"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "love"
+          l2: "olin"
+          junkChips: ["pilin", "wile", "pan"]
+        - l1: "sex"
+          l2: "unpa"
+          junkChips: ["palisa", "lupa", "pilin"]
+        - l1: "parent"
+          l2: "mama"
+          junkChips: ["olin", "jan", "soko"]
+        - l1: "man"
+          l2: "mije"
+          junkChips: ["tonsi", "meli", "suno"]
+        - l1: "woman"
+          l2: "meli"
+          junkChips: ["mije", "tonsi", "suno"]
+        - l1: "non-binary"
+          l2: "tonsi"
+          junkChips: ["mije", "meli", "suno"]
+        - l1: "(subject joiner)"
+          l2: "en"
+          junkChips: ["ala", "lete", "sin"]
+    - type: revise
+      tasks:
+        - l1: "My dad loves my mom."
+          l2: "mama mije mi li olin e mama meli mi."
+          junkChips: ["pona"]
+          alsoAccept:
+            - "mama mi mije li olin e mama mi meli."
+            - "mama mi li olin e mama mi." # lol
+        - l1: "My girlfriend is sweet."
+          l2: "meli mi li suwi."
+          junkChips: ["pi"]
+        - l1: "I like women, men, and non-binary folks."
+          l2: "meli en mije en tonsi li pona tawa mi."
+          junkChips: ["e"]
+"27":
+  chapter_name: "lesson 27: colours"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "colour"
+          l2: "kule"
+          junkChips: ["walo", "pimeja", "misikeke"]
+        - l1: "white"
+          l2: "walo"
+          junkChips: ["pimeja", "kule", "mani"]
+        - l1: "black"
+          l2: "pimeja"
+          junkChips: ["walo", "ala", "kule"]
+        - l1: "cyan"
+          l2: "laso"
+          junkChips: ["jelo", "loje", "kasi"]
+        - l1: "red"
+          l2: "loje"
+          junkChips: ["laso", "jelo", "uta"]
+        - l1: "yellow"
+          l2: "jelo"
+          junkChips: ["laso", "loje", "suno"]
+        - l1: "also"
+          l2: "kin"
+          junkChips: ["a", "o", "lete"]
+    - type: revise
+      tasks:
+        - l1: "At night, I party."
+          l2: "tenpo pimeja la mi musi."
+          alsoAccept: ["pimeja la mi musi."]
+          junkChips: ["jelo"]
+        - l1: "There is yellow dust on the bee."
+          l2: "ko jelo li lon pipi."
+          junkChips: ["loje"]
+        - l1: "I, too, play with colourful bricks."
+          l2: "mi kin li musi kepeken leko kule."
+          junkChips: ["e"]
+        - l1: "All this snow is blinding me."
+          l2: "mi ken ala lukin tan ko walo."
+          junkChips: ["seli"]
+        - l1: "Blue, white, and red are on the flag."
+          l2: "laso en walo en loje li lon lipu."
+          junkChips: ["jelo"]
+"28":
+  chapter_name: "lesson 28: moo!"
+  exercises:
+    - type: vocab
+      tasks:
+        - l1: "but"
+          l2: "taso"
+          junkChips: ["kin", "anu", "la"]
+        - l1: "hmm"
+          l2: "n"
+          junkChips: ["a", "o", "kin"]
+        - l1: "moo"
+          l2: "mu"
+          junkChips: ["musi", "kalama", "soweli"]
+        - l1: "'Toki Pona: The Language of Good (2014)' by Sonja Lang"
+          l2: "pu"
+          junkChips: ["ku", "lipu", "toki"]
+        - l1: "'Toki Pona Dictionary (2021)' by Sonja Lang"
+          l2: "ku"
+          junkChips: ["pu", "lipu", "nimi"]
+        - l1: "raccoon"
+          l2: "kijetesantakalu"
+          junkChips: ["soweli", "waso", "akesi"]
+    - type: revise
+      tasks:
+        - l1: "I see a lone turquoise duck."
+          l2: "mi lukin e waso laso taso."
+          junkChips: ["pi"]
+          alsoAccept: ["mi lukin e waso taso laso."]
+        - l1: "The sky gave off a terrifying boom."
+          l2: "sewi li pana e mu monsuta."
+          junkChips: ["kute"]
+        - l1: "I want to sleep. But I cannot."
+          l2: "mi wile lape. taso mi ken ala."
+          junkChips: ["la"]
+        - l1: "The raccoon loves you."
+          l2: "kijetesantakalu li olin e sina."
+          junkChips: ["pona"]

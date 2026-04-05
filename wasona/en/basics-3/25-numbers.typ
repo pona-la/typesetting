@@ -63,3 +63,5 @@ numbers, just use #strong[󱤽 nanpa] + a number:
 
 == See also
 + #link("/en/large-numbers/")[Q: how do I talk about large numbers?]
+
+#exercises("25")

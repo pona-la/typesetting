@@ -77,3 +77,5 @@ problem, we use a new particle in between:
 == See also
 + #link("https://www.tamz.in/toki_mi/there-is-no-gender-in-toki-pona/")[A deeper
     discussion on gender and Toki Pona, by wan Tansin]
+
+#exercises("26")

@@ -134,3 +134,5 @@ possible reply first, and then replace the answer in that reply with #strong[ó±¥
 
 == See also
 + #link("/en/doing/")[Q: how do you say 'to do'?]
+
+#exercises("17")

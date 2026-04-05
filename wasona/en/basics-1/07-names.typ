@@ -92,6 +92,8 @@ Let\'s practice using the new words and names in sentences:
   ),
 ))
 
+#exercises("07")
+
 == See also
 - #link("/en/make-a-name/")[Q: what\'s my name in Toki Pona?]
 - #link("/en/simpler-cartouches/")[Q: in sitelen pona, names look long. How can

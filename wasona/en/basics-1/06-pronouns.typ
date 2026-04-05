@@ -66,5 +66,7 @@ subject of the sentence, we remove the #strong[󱤧 li] that would normally foll
 the subject. This is because sentences starting with #strong[󱤴 mi] or #strong[󱥞
   sina] are extremely common!
 
+#exercises("06")
+
 == See also
-+ [Q: does 'li' mean 'is'?](/en/li-and-is/)
++ #link("/en/li-and-is/")[Q: does 'li' mean 'is'?]

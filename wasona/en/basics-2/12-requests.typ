@@ -52,3 +52,5 @@ We can use those separately:
   sentence("󱤑󱦐󱤉󱤶󱤂󱦑󱥄", "jan Ema o!", "Hey, Emma!"),
   sentence("󱥄󱥐󱤉󱤯󱥭", "o pini e lupa tomo!", "Please close the door!"),
 ))
+
+#exercises("12")

@@ -72,3 +72,5 @@ Let's learn to use these words in phrases and sentences:
     "Learn the meaning of the speech!",
   ),
 ))
+
+#exercises("13")

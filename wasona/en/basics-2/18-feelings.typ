@@ -107,3 +107,5 @@ But if you speak to me in Toki Pona, you are already as polite as you need to
 be!
 + ✅ o pana e suwi!
 + ✅ tomo lipu li lon seme?
+
+#exercises("18")

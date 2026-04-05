@@ -80,3 +80,5 @@ now let's just look at #strong[󱤧 li]:
     "The person hunts fish, cooks them, eats them.",
   ),
 ))
+
+#exercises("21")

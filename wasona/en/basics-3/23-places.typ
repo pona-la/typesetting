@@ -60,3 +60,5 @@ Let's use them in some sentences:
 
 Protip: since #strong[󱥍 pi] only exists for rebracketing, it will never occur
 before just one word! There are always two words or more after it.
+
+#exercises("23")

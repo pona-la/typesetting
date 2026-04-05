@@ -127,3 +127,5 @@ three very different sentences:
 If you are ever confused about how to read or write a sentence, start by asking:
 \"Where is the subject? Where is the verb? Where is the object?\", and
 everything neatly separates into small phrases!
+
+#exercises("05")

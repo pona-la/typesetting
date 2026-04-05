@@ -47,3 +47,5 @@ the hands touch.
     "My fingers are larger than my toes.",
   ),
 ))
+
+#exercises("24")

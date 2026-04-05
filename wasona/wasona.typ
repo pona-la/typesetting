@@ -17,7 +17,7 @@
 #pagebreak()
 #include "en/basics-1/08-prepositions.typ"
 #pagebreak()
-#include "en/basics-1/09-preverbs.typ"
+#include "en/basics-1/09-activities.typ"
 #pagebreak()
 
 #include "en/basics-2/11-home.typ"

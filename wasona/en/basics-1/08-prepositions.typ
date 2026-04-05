@@ -103,6 +103,8 @@ Let\'s practice with these sentences:
   ),
 ))
 
+#exercises("08")
+
 == See also
 - #link("/en/languages-countries/")[Q: do I have to memorise language and
     country names?]

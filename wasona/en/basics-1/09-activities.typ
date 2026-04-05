@@ -2,7 +2,7 @@
 
 #show: template
 
-= lesson 9: preverbs
+= lesson 9: activities
 
 Let\'s learn some more words for things you can do!
 
@@ -87,6 +87,8 @@ Let\'s try to use preverbs in sentences:
     "His speech is still strange to me.",
   ),
 ))
+
+#exercises("09")
 
 == See also
 - #link("/en/more-preverbs/")[Q: are there any more preverbs?]

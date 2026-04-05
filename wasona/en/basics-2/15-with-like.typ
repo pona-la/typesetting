@@ -103,3 +103,5 @@ Sometimes you can make very similar sentences, except one has a verb like
 I establish a territory. (verb)",
   ),
 ))
+
+#exercises("15")

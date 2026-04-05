@@ -170,7 +170,7 @@
 
 // Render end-of-chapter exercises
 #let exercises(id) = {
-  let exercise_data = toml("en/exercises.toml").at(id).at("exercises")
+  let exercise_data = yaml("en/exercises.yaml").at(id).at("exercises")
 
   for (n, exercise) in exercise_data.enumerate(start: 1) {
     // perhaps replace this with a numbering function?
@@ -185,7 +185,7 @@
       #if exercise.type == "vocab" {
         for (q, task) in exercise.tasks.enumerate(start: 1) {
           // Show the multiple choices in alphabetical order
-          let answers = task.junk
+          let answers = task.junkChips
           answers.push(task.l2)
           answers = answers.sorted()
 
@@ -222,7 +222,7 @@
 }
 
 #let solutions() = {
-  let exercises = toml("en/exercises.toml")
+  let exercises = yaml("en/exercises.yaml")
 
   for chapter_key in exercises.keys() {
     let chapter = exercises.at(chapter_key)
