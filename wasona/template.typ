@@ -34,7 +34,7 @@
   #set text(
     // font: "Noto Sans",
     // font: "Besley",
-    font: "Libertinus Sans",
+    font: "Marauder* Text",
     size: 1em,
     // This is the cap-height of teX Gyre Schola, and prevents sitelen pona embeds from messing with the line height
     // It should be checked and changed when the font changes
@@ -48,7 +48,8 @@
   )
   #show heading: set text(
     // font: "TeX Gyre Heros",
-    //     font: "Libertinus Serif",
+    // font: "Libertinus Serif",
+    font: "Marauder* Caption",
     top-edge: "cap-height",
   )
   #show heading.where(level: 1): it => {

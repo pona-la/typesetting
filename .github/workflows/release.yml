@@ -28,20 +28,22 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install fonts-texgyre
-          sudo apt-get install fonts-ebgaramond
         # "fonts-texgyre" includes "TeX Gyre Bonum", used by osawi
-        # "fonts-ebgaramond" includes "EB Garamond", used by wasona
+
+        # "fonts-ebgaramond" includes "EB Garamond"
+        # sudo apt-get install fonts-ebgaramond
 
       - name: Install fonts manually
         run: |
           mkdir -p ~/.local/share/fonts/
           cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
+          cp wasona/assets/Marauder/ ~/.local/share/fonts/
 
-      - name: Install Libertinus
-        run: |
-          wget https://github.com/alerque/libertinus/releases/download/v7.051/Libertinus-7.051.zip
-          unzip Libertinus-7.051.zip
-          cp -r Libertinus-7.051/static/TTF/ ~/.local/share/fonts/
+      # - name: Install Libertinus
+      #   run: |
+      #     wget https://github.com/alerque/libertinus/releases/download/v7.051/Libertinus-7.051.zip
+      #     unzip Libertinus-7.051.zip
+      #     cp -r Libertinus-7.051/static/TTF/ ~/.local/share/fonts/
 
       - name: Compile Typst file
         run: |
