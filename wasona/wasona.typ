@@ -21,6 +21,8 @@
 #pagebreak()
 #include "en/basics-1/09-activities.typ"
 #pagebreak()
+#include "en/basics-1/10-story.typ"
+#pagebreak()
 
 #include "en/basics-2/11-home.typ"
 #pagebreak()
