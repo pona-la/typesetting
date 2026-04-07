@@ -262,3 +262,18 @@
   #line(length: 100%)
   #v(-0.75em)
 ]
+
+#let bubble_color = rgb("#f4cbaa")
+
+#let bubble(alignment, content) = [
+  #let radius = (rest: 0.5em)
+  #if alignment == right {
+    radius.insert("bottom-right", 0em)
+  } else {
+    radius.insert("bottom-left", 0em)
+  }
+
+  #align(alignment)[#box(fill: bubble_color, outset: 0.35em, radius: radius)[
+    #content
+  ]]
+]
