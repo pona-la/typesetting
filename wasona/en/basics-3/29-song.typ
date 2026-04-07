@@ -34,7 +34,123 @@ We have lots of talented musicians writing original songs or translating songs
 they love. Let's check out this awesome song #emph['ale li ante'] by jan
 Nikoleta (kqa)!
 
-TODO: port song
+#pagebreak()
+
+#[
+
+#set par(leading: 0.75em)
+
+#grid(columns: (auto, auto), column-gutter: 2em, [
+=== sitelen pona
+󱥆󱤄󱤧󱤃󱤮󱤉󱤴\
+󱤴󱥷󱤕󱥣\
+󱥞󱥬󱥩󱤴󱦞󱤴󱥷󱤷󱦟\
+󱤴󱥬󱥩󱥞\
+󱦞󱤂󱦜󱥄󱤈󱥩󱤴󱦟
+
+󱤄󱤧󱤆\
+󱥞󱥄󱤈󱥩󱥔\
+󱤴󱥮󱤧󱤢󱥩󱥫󱥔\
+󱥫󱥏󱤦\
+󱤡󱤴󱥮󱤧󱤈󱥗\
+󱥠󱤺󱤧󱤤󱥩󱥇󱥝
+
+󱤰󱤄󱤧󱥖󱤮󱥩󱤴#text(fill: rgb("#bbb"))[󱥩󱤴]\
+󱥆󱤄󱤧󱤾#text(fill: rgb("#bbb"))[󱥆󱤄󱤧󱤾]\
+󱤜󱤾󱥝󱤧󱥶󱤉󱥎󱤄\
+󱤑󱤧󱥷󱤂󱥡\
+󱤉󱥈󱥣󱥍󱥆󱤼
+
+󱤍󱤧󱤤󱥧󱥙\
+󱤑󱥔󱤧󱤷󱤬󱤏\
+󱥆󱤧󱥷󱤂󱥡󱥧󱥎󱥈󱥁\
+󱤘󱤡󱤘󱤆󱤧󱤘󱤂󱤼\
+󱥨󱥞󱥷󱤉󱥂󱤬\
+󱤡󱤴󱥮󱥄󱥩󱥶󱤬󱥫󱥁
+
+󱤄󱤧󱤆\
+󱥞󱥄󱤈󱥩󱥔\
+󱤴󱥮󱤧󱤢󱥩󱥫󱥔\
+󱥫󱥏󱤦\
+󱤡󱤴󱥮󱤧󱤈󱥗\
+󱥠󱤺󱤧󱤤󱥩󱥇󱥝
+],[
+=== sitelen Lasina
+ona ale li alasa lukin e mi\
+mi wile kalama suli\
+sina toki tawa mi: "mi wile moli"\
+mi toki tawa sina:\
+"ala, o awen tawa mi"
+
+ale li ante\
+sina o awen tawa pona\
+mi tu li lape tawa tenpo pona\
+tenpo pimeja lete\
+la mi tu li awen seli\
+sitelen mun li lawa tawa open sin
+
+ma ale li sama lukin tawa mi (tawa mi)\
+ona ale li nasa (ona ale li nasa)\
+ko nasa sin li weka e pilin ale\
+jan li wile ala sona\
+e pakala suli pi ona mute.
+
+ike li lawa tan seme?\
+jan pona li moli lon insa\
+ona li wile ala sona tan pilin pakala ni\
+ken la ken ante li ken ala mute\
+taso sina wile e nimi lon\
+la mi tu o tawa weka lon tenpo ni
+
+ale li ante\
+sina o awen tawa pona\
+mi tu li lape tawa tenpo pona\
+tenpo pimeja lete\
+la mi tu li awen seli\
+sitelen mun li lawa tawa open sin
+])
+
+#pagebreak()
+
+#[
+=== Translation
+they all look for me\
+i want to scream\
+you tell me: "i want to die"\
+i tell you:\
+"no, stay for me"
+
+life keeps changing\
+stay for when it gets better\
+we sleep for better times\
+the night is cold\
+but we keep each other warm\
+constellations lead to a new beginning
+
+everywhere i go looks the same\
+it's all insane (it's all insane)\
+new drugs remove every feeling\
+people dont want to know\
+their brokenness
+
+why do the evil rule?\
+the good are dead inside\
+they don't want to know from their broken hearts\
+opportunities of change may not be common\
+but if the truth is what you desire\
+lets go, right now
+
+life keeps changing\
+stay for when it gets better\
+we sleep for better times\
+the night is cold\
+but we keep each other warm\
+constellations lead to a new beginning 
+]
+]
+
+#pagebreak()
+
 
 So what is the takeaway from this song? Maybe it's the quirky punctuation that
 you haven't seen yet in sitelen pona? Or the fact the song comes together nicely
