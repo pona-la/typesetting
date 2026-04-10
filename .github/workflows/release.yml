@@ -33,11 +33,11 @@ jobs:
         # "fonts-ebgaramond" includes "EB Garamond"
         # sudo apt-get install fonts-ebgaramond
 
-      - name: Install fonts manually
-        run: |
-          mkdir -p ~/.local/share/fonts/
-          cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
-          cp -r wasona/assets/Marauder/ ~/.local/share/fonts/
+      # - name: Install fonts manually
+      #   run: |
+      #     mkdir -p ~/.local/share/fonts/
+      #     cp wasona/assets/nasin-nanpa.otf ~/.local/share/fonts/
+      #     cp -r wasona/assets/Marauder/ ~/.local/share/fonts/
 
       # - name: Install Libertinus
       #   run: |
@@ -46,11 +46,7 @@ jobs:
       #     cp -r Libertinus-7.051/static/TTF/ ~/.local/share/fonts/
 
       - name: Compile Typst file
-        run: |
-          mkdir out
-          typst compile osawi/osawi.typ out/osawi.pdf
-          typst compile kemeka/main.typ out/kemeka.pdf
-          typst compile wasona/wasona.typ out/wasona.pdf
+        run: make all
 
       # - name: Upload artifact (always)
       #   uses: actions/upload-artifact@v4
