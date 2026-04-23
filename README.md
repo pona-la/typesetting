@@ -8,7 +8,7 @@ This is a collaborative project brought to you by the Toki Pona community.
 
 <div align="center">
   <a href="https://github.com/pona-la/typesetting/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=pona-la/typesetting" />
+    <img src="https://contrib.rocks/image?columns=9&max=27&repo=pona-la/typesetting" />
   </a>
 </div>
 
@@ -18,9 +18,11 @@ Want to help but you're [new to Github? We can help!](https://github.com/pona-la
 
 You can also join the Discord and talk to the maintainers!
 
-<a href="https://discord.gg/A3ZPqnHHsy">
-  <img src="https://raw.githubusercontent.com/pona-la/.github/refs/heads/main/assets/pali-pona-badge.svg">
-</a>
+<div align="center">
+  <a href="https://discord.gg/A3ZPqnHHsy">
+    <img src="https://raw.githubusercontent.com/pona-la/.github/refs/heads/main/assets/pali-pona-badge.svg">
+  </a>
+</div>
 
 ## Local development
 
