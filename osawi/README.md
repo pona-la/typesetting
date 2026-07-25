@@ -1,49 +1,37 @@
-Recently, jan Ke Tami put out an unabridged Toki Pona translation of *The Wonderful Wizard of Oz*: [jan Osawi pi ma Osawi](https://janketami.wordpress.com/2026/02/22/the-wonderful-wizard-of-oz/). I was excited to read it, and wanted to do so in physical, so I spent an afternoon putting together a quick-and-dirty typeset of it!
+Recently, jan Ke Tami put out an unabridged Toki Pona translation of _The Wonderful Wizard of Oz_: [jan Osawi pi ma Osawi](https://janketami.wordpress.com/2026/02/22/the-wonderful-wizard-of-oz/). I love the concept of having this in physical! (So that's what this project is for haha.)
 
-**Currently, I'm in the process of redoing the whole book, one chapter at a time, to include illustrations, and closely match the original edition! Stay tuned!**
+## Goals
 
-## Process for Restoring Illustrations
-Some quick notes for a restoration process I worked out while experimenting with GIMP. I've no experience in this field so feel free to reach out if you have pointers, but this is the process I stumbled into!
+- Match the original first-edition copy of The Wizard of Oz pretty close!
 
-- Start with the raw page scan from https://archive.org/details/wonderfulwizardo00baumiala/.
-- Image > Transform > Rotate 90 Degrees.
-- Image > Canvas Size. Resize the canvas to our target: 216\*23 by 154\*23. (Based on A5 at 600dpi)
-- Layer > Layer to Image Size. Fit layer to canvas, to add a white border.
-- Use the corrective mode of the perspective tool to line up the corners of the page.
-- On a second layer, add a white-to-black "reverse vignette" gradient. Set this layer's blend mode to Grain Extract and adjust the opacity until the colours are relatively flat. (Potentially, we could instead use one of the photos of a blank page as lighting reference to counteract the vignette.)
-- Use the Levels tool! Eyedrop the whites and blacks, and adjust the mids on the values histogram so they're roughly in in the middle of the data. (If there's no good blacks to eyedrop feel free to use the histogram for this, too.)
-- Create a palette by eyedropping each colour in the image.
-- Change the image to indexed colours, using that palette.
-- Open the colormap and replace the colours with our colour scheme.
-- Use clone and fill brushes to remove any text from the image. We do it here as the indexed colour space is quite forgiving.
-For now, I'm not too confident that we've locked in the color scheme, so just leave it here! The only other steps that might want to happen after this are just anti-aliasing/tidying up the artifacts from essentially posterising the image.
-<!-- - Convert back from indexed to RGB.
-- Mean Curvature Blur Filter at 5 iterations. This has a bit of an "AI-Smudge" look to it that I don't love (though it's not AI), but it does a good job at cleaning up the artifacts of converting to indexed, so I don't mind it.
-- Median Blur Filter with a radius of 1. This just gets rid of any floating pixels. -->
+## Resources
 
-This will take a lot of time, as, uh, seems like there are around ~156 illustrations! Some of them have been restored by others, but I think there's value in doing it all at once for this project, as we can have a very consistent look throughout the book.
+- Wikisource has a high resolution scan of the book, good for reference of formatting/page layout: https://en.wikisource.org/wiki/Index:Baum_-_The_Wonderful_Wizard_of_Oz.djvu.
+- Gutenberg has scans of all the illustrations, which look pretty good! They're a bit low-res but what can ya do, future thing to solve, perhaps: https://www.gutenberg.org/ebooks/43936.
 
 ## Illustration Colour Scheme
-Only a limited number of inks are used throughout the illustrations, with use of hatching for intermediate shades. To reflect this, we'll use a similar colour palette.
 
-(Keep colours indexed for now, though, in case we want to adjust the palette!)
+Only a limited number of inks are used throughout the illustrations, with use of hatching for intermediate shades. We perhaps don't like the colours that the Gutenberg scans use (they don't look super accurate to me!), so below are like,, some ideal colours?
 
-| Color | Hex Code |
-| --- | --- |
-| White | #ffffff00 |
-| Black | #000000 |
-| Grey | #b5b5b5 |
-| Light Blue | #a0d4c8 | 
-| Dark Blue | #01025d |
-| Red | #d84332 |
-| Yellow | #ffff65 |
-| Green | #a8d667 |
-| Brown | #984931 |
+(idk this is still work in progress - would love perhaps a method to make images use specific colours smoothly via commandline.)
 
-(An additional orange might be needed for the west, but perhaps yellow will do!)
+| Color      | Hex Code  |
+| ---------- | --------- |
+| White      | #ffffff00 |
+| Black      | #000000   |
+| Grey       | #b5b5b5   |
+| Light Blue | #a0d4c8   |
+| Dark Blue  | #01025d   |
+| Red        | #d84332   |
+| Yellow     | #ffff65   |
+| Green      | #a8d667   |
+| Brown      | #984931   |
+
+(An additional orange might be needed for the west, but perhaps yellow will do! Still working through the book)
 
 ## Licensing
-*The Wonderful Wizard of Oz* and Denslow's illustrations from the first edition are public domain.
+
+_The Wonderful Wizard of Oz_ and Denslow's illustrations from the first edition are public domain. Not entirely sure about Gutenberg's scans, someone will need to fact-check that for me.
 
 The text of jan Ke Tami's translation is released into the public domain using CC0.
 

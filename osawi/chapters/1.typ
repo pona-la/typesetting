@@ -4,10 +4,6 @@
 
 #show: template
 
-// Everything from here should be broken into individual chapter files that we import.
-// Edit: AH, typst include is different to LaTeX \input - it compiles before importing!
-// The above won't be as simple as I expected.
-
 // Chapter title page
 // TODO add text to this, likely with inkscape?
 // saving it for later since images will need a pass to assess their margins & alignment
@@ -56,7 +52,6 @@
 
   container()
   pagebreak()
-
 
   // Regular full-text page
   header()
