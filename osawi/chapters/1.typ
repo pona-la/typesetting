@@ -4,50 +4,52 @@
 
 #show: template
 
-// Chapter title page
-// TODO add text to this, likely with inkscape?
-// saving it for later since images will need a pass to assess their margins & alignment
-#[
-  #set page(background: image("../illustrations/1.png", fit: "cover"))
-]
-
-// Clear to recto
-#pagebreak(to: "odd")
+// #set box(stroke: stroke(red))
 
 // /*
 // We layout each chapter with meander so that text can flow around images
 #meander.reflow({
   import meander: *
 
-  // First page: drop cap Dorothy
-  // TODO create an image placement wrapper function
-  // so it's easier to adjust placement.
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/1a.png",
+  // Chapter opening page
+  placed(left + top, dx: -margin_side, dy: -margin_top, boundary: contour.phantom(), image(
+    "../illustrations/1.jpg",
     width: page_width,
     height: page_height,
+  ))
+
+  pagebreak()
+  pagebreak()
+
+  // Chapter drop cap "Dorothy"
+  // TODO create an image placement wrapper function
+  // so it's easier to adjust placement.
+  placed(horizon + center, dx: 0mm, dy: -margin_top, boundary: contour.phantom(), image(
+    "../illustrations/1a.jpg",
+    width: page_width * 0.9,
+    height: page_height * 0.9,
   ))
 
   // Collision boxes for the drop cap on this page
   placed(
     top + center,
-    box(width: 100%, height: 51%),
+    box(width: 100%, height: 46.5%),
   )
   placed(
     top + left,
-    box(width: 70%, height: 58%),
+    box(width: 72%, height: 54%),
   )
   placed(
     top + left,
-    box(width: 40%, height: 61.5%),
+    box(width: 42%, height: 57%),
   )
   placed(
     top + left,
-    box(width: 13%, height: 66%),
+    box(width: 21%, height: 62%),
   )
   placed(
     bottom + right,
-    box(width: 18%, height: 19%),
+    box(width: 17%, height: 23%),
   )
 
   container()
@@ -59,15 +61,23 @@
   pagebreak()
 
   // Full-page illustration
-  placed(left + top, dx: -25mm, dy: -30mm, image("../illustrations/1b.png", width: page_width, height: page_height))
+  placed(left + top, dx: -5mm, dy: -20mm, image(
+    "../illustrations/1b.jpg",
+    width: page_width * 0.85,
+    height: page_height * 0.85,
+  ))
+  // TODO style this better, probs make a function so you don't gotta copy paste all this
+  placed(left + bottom, dx: 0mm, dy: 10mm, box(width: 115mm)[#align(
+    center,
+  )[_"ona li kama luka e nena kute pi soweli Toto."_]])
   pagebreak()
 
   // Blank page
   pagebreak()
 
   // Illustration of grey Enwi and Me
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/1c.png",
+  placed(left + top, dx: -margin_side, dy: -margin_top, boundary: contour.phantom(), image(
+    "../illustrations/1c.jpg",
     width: page_width,
     height: page_height,
   ))
@@ -75,7 +85,11 @@
   // Collision boxes for the illustration
   placed(
     bottom + right,
-    box(width: 30%, height: 60%),
+    box(width: 15%, height: 70%),
+  )
+  placed(
+    bottom + right,
+    box(width: 30%, height: 64%),
   )
   placed(
     bottom + right,
@@ -83,7 +97,7 @@
   )
   placed(
     bottom + right,
-    box(width: 59%, height: 10%),
+    box(width: 59%, height: 11%),
   )
 
   header()
@@ -99,8 +113,8 @@
   pagebreak()
 
   // Towesi in the storm
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/1d.png",
+  placed(left + top, dx: -margin_side, dy: -margin_top, boundary: contour.phantom(), image(
+    "../illustrations/1d.jpg",
     width: page_width,
     height: page_height,
   ))
@@ -146,5 +160,5 @@
 
     tenpo li tawa, li tawa. awen la, ike li kama weka tan pilin pi jan Towesi. taso ona li pilin pi wan taso a! kin la, kon li mu wawa lon poka ale, li ike tawa kute ona. tenpo open la, ona li kama pilin e ni: tomo li kama anpa wawa la, jan lili li kama ala kama pakala? taso tenpo li awen tawa la, ike ala li kama. ni la, jan li pini e pilin ike ona. ona li wile awen kepeken pilin ike wawa ala, li wile awen tawa ijo pi tenpo kama. pini la, ona li tawa lon supa anpa pi tawa nasa, li kama lon supa lape. soweli Toto li tawa poka ona.
 
-    tomo li awen tawa nasa. kon tawa li awen mu. taso tenpo lili la, jan Towesi li pini e oko ona, li kama lape a!]
+    tomo li awen tawa nasa. kon tawa li awen mu. taso tenpo lili la, jan Towesi li pini e oko ona, li kama lape a! ]
 })

@@ -29,6 +29,14 @@ Only a limited number of inks are used throughout the illustrations, with use of
 
 (An additional orange might be needed for the west, but perhaps yellow will do! Still working through the book)
 
+## Illustration TODOS:
+
+### Chapter 1:
+
+- Replace text on chapter splash.
+- Remove "Dorothy" text?
+- Patch edges of grabbing Toto's ears.
+
 ## Licensing
 
 _The Wonderful Wizard of Oz_ and Denslow's illustrations from the first edition are public domain. Not entirely sure about Gutenberg's scans, someone will need to fact-check that for me.

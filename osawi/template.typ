@@ -1,32 +1,37 @@
 #import "@preview/meander:0.4.1"
 
+#let bleed = 0mm;
+#let margin_top = 27mm + bleed;
+#let margin_side = 14mm + bleed;
+#let margin_bottom = 30mm + bleed;
+
 #let template(doc) = [
   // We use meander for reflowing text around custom collision boxes
   #import "@preview/meander:0.4.1"
 
   // We use an A5 page size, as it's very close to the dimensions of the original book and offered by many printing companies.
   // Plus 3mm for bleed!
-  #set page(width: 148mm + 6mm, height: 210mm + 6mm, margin: (
-    inside: 22mm + 3mm,
-    outside: 22mm + 3mm,
-    bottom: 20mm + 3mm,
-    top: 27mm + 3mm,
+  #set page(width: 148mm + 2 * bleed, height: 210mm + 2 * bleed, margin: (
+    inside: margin_side,
+    outside: margin_side,
+    bottom: margin_bottom,
+    top: margin_top,
   ))
 
   // The 1900 first edition (which we're using art from) used Monotype Old Style, of which TeX Gyre Bonum is a free replica.
-  #set text(font: "TeX Gyre Bonum", size: 11.5pt)
+  #set text(font: "TeX Gyre Bonum", size: 12pt)
 
   // Per-character justification! Numbers semi-arbitrary from the docs, can change.
   #set par(justify: true, justification-limits: (tracking: (min: -0.01em, max: 0.02em)), linebreaks: "optimized")
 
   // And of course our lovely compact fiction spacing
-  #set par(first-line-indent: 2.5em, spacing: 0.65em)
+  #set par(first-line-indent: 2em, spacing: 0.65em)
 
   #doc
 ]
 
-#let page_width = 148mm + 6mm
-#let page_height = 210mm + 6mm
+#let page_width = 148mm + 2 * bleed
+#let page_height = 210mm + 2 * bleed
 
 // lowercase because we render it in smallcaps
 #let nanpa = ((20, "m"), (5, "l"), (2, "t"), (1, "w"))
