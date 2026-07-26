@@ -4,39 +4,46 @@
 
 #show: template
 
-// Chapter title page
-#[
-  #set page(background: image("../illustrations/2.png", fit: "cover"))
-]
-
-// Clear to recto
-#pagebreak(to: "odd")
+// #set box(stroke: stroke(red))
 
 // /*
 // We layout each chapter with meander so that text can flow around images
 #meander.reflow({
   import meander: *
 
-  // First page: drop cap She
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/2a.png",
-    width: page_width,
-    height: page_height,
+  // Chapter opening page
+  placed(left + top, dx: -3mm, dy: -15mm, boundary: contour.phantom(), image(
+    "../illustrations/2.jpg",
+    width: page_width * 0.85,
+    height: page_height * 0.85,
+  ))
+
+  pagebreak()
+  pagebreak()
+
+  // Chapter drop cap "She"
+  placed(horizon + center, dx: -3mm, dy: -15mm, boundary: contour.phantom(), image(
+    "../illustrations/2a.jpg",
+    width: page_width * 0.85,
+    height: page_height * 0.85,
   ))
 
   // Collision boxes for the drop cap on this page
   placed(
     top + center,
-    box(width: 100%, height: 38%),
+    box(width: 100%, height: 46.5%),
   )
   placed(
     top + left,
-    box(width: 31%, height: 68%),
+    box(width: 62%, height: 60%),
+  )
+  placed(
+    top + left,
+    box(width: 42%, height: 82%),
   )
 
   container()
   pagebreak()
-
 
   // Regular full-text page
   header()
@@ -44,48 +51,58 @@
   pagebreak()
 
   // Full-page illustration
-  placed(left + top, dx: -25mm, dy: -30mm, image("../illustrations/2b.png", width: page_width, height: page_height))
+  placed(left + top, dx: -5mm, dy: -20mm, image(
+    "../illustrations/2b.jpg",
+    width: page_width * 0.85,
+    height: page_height * 0.85,
+    fit: "contain",
+  ))
+  // Dxt
+  placed(left + bottom, dx: 0mm, dy: 5mm, box(width: 115mm)[#align(
+    center,
+  )[#text(fill: navy, size: 10pt)[_"mi jan Unu pi wawa nasa."_]]])
   pagebreak()
 
   // Blank page
   pagebreak()
 
-  // Illustration of three Mankins
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/2c.png",
-    width: page_width,
-    height: page_height,
+  // Illustration of munchkins
+  placed(left + top, dx: -1mm, dy: -12mm, boundary: contour.phantom(), image(
+    "../illustrations/2c.jpg",
+    width: page_width * 0.85,
+    height: page_height * 0.85,
+    fit: "contain",
   ))
 
   // Collision boxes for the illustration
   placed(
     bottom + right,
-    box(width: 50%, height: 45%),
+    box(width: 45%, height: 40%),
   )
   placed(
     bottom + right,
-    box(width: 59%, height: 20%),
+    box(width: 55%, height: 30%),
   )
 
   header()
   container()
   pagebreak()
 
-  // Illustration of shoes under the house
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/2d.png",
+  // Illustration of shoes under house
+  placed(left + bottom, dx: -margin_side + 5mm, dy: 25mm, boundary: contour.phantom(), image(
+    "../illustrations/2d.jpg",
     width: page_width,
-    height: page_height,
+    fit: "contain",
   ))
 
   // Collision boxes for the illustration
   placed(
     bottom + left,
-    box(width: 50%, height: 36%),
+    box(width: 50%, height: 33%),
   )
   placed(
     bottom + left,
-    box(width: 75%, height: 22%),
+    box(width: 72%, height: 23%),
   )
 
   header()
@@ -100,38 +117,37 @@
   container()
   pagebreak()
 
-  // Towesi with the shoes
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/2e.png",
-    width: page_width,
-    height: page_height,
+  // Towesi holding the shoes
+  placed(top + right, dx: margin_side, dy: -20mm, boundary: contour.phantom(), image(
+    "../illustrations/2e.jpg",
+    width: page_width * 0.55,
+    fit: "contain",
   ))
 
   // Collision boxes for the illustration
   placed(
     top + right,
-    box(width: 56%, height: 40%),
+    box(width: 55%, height: 40%),
   )
   placed(
     top + right,
-    box(width: 35%, height: 55%),
+    box(width: 40%, height: 55%),
   )
 
   header()
   container()
   pagebreak()
 
-  // Unu seeks advice
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/2f.png",
+  // Witch's chalkboard
+  placed(bottom + left, dx: -margin_side, dy: margin_bottom, boundary: contour.phantom(), image(
+    "../illustrations/2f.jpg",
     width: page_width,
-    height: page_height,
+    fit: "cover",
   ))
 
-  // Collision boxes for the illustration
   placed(
-    bottom + center,
-    box(width: 100%, height: 4.5%),
+    bottom + right,
+    box(width: 19%, height: 25%),
   )
 
   header()
@@ -142,17 +158,17 @@
   container()
   pagebreak()
 
-  // Unu disappears
-  placed(left + top, dx: -25mm, dy: -30mm, boundary: contour.phantom(), image(
-    "../illustrations/2g.png",
-    width: page_width,
-    height: page_height,
+  // Witch disappears
+  placed(top + left, dx: -22mm, dy: -17mm, boundary: contour.phantom(), image(
+    "../illustrations/2g.jpg",
+    width: page_width * 0.95,
+    height: page_height * 0.95,
+    fit: "contain",
   ))
 
-  // Collision boxes for the illustration
   placed(
     top + left,
-    box(width: 55%, height: 40%),
+    box(width: 52%, height: 52%),
   )
 
   header()
@@ -200,7 +216,9 @@
 
     jan meli li pana e toki: “jan. taso mi jan pona a pi wawa nasa! kulupu li olin e mi. wawa mi li suli ala sama jan ike lawa pini pi ma ni. wawa mi pi suli ante la, mi kin li kama weka e ike tan kulupu.”
 
-    jan Towesi li toki lon pilin ike tan jan poka pi wawa nasa: “taso pilin mi la, jan ale pi wawa nasa li ike. ni li lon ala anu seme?” “a – lon ala. ni li ken pakala suli lon sona. ale pi ma Osawi la, jan tu tu taso pi wawa nasa li lon. jan ni tu li lon ma Unu, li lon ma Loje, li jan pona a pi wawa nasa! mi sona e pona ona tan ni. mi jan wan lon ona tu la, sona mi li ken ala pakala. ma Laso en ma Jelo la, jan pi wawa nasa li jan ike a! taso sina moli e jan wan lon ona tu la, jan ike wan taso pi wawa nasa li lon ma Osawi. ona wan li lon ma Jelo.”
+    jan Towesi li toki lon pilin ike tan jan poka pi wawa nasa: “taso pilin mi la, jan ale pi wawa nasa li ike. ni li lon ala anu seme?”
+
+    “a – lon ala. ni li ken pakala suli lon sona. ale pi ma Osawi la, jan tu tu taso pi wawa nasa li lon. jan ni tu li lon ma Unu, li lon ma Loje, li jan pona a pi wawa nasa! mi sona e pona ona tan ni. mi jan wan lon ona tu la, sona mi li ken ala pakala. ma Laso en ma Jelo la, jan pi wawa nasa li jan ike a! taso sina moli e jan wan lon ona tu la, jan ike wan taso pi wawa nasa li lon ma Osawi. ona wan li lon ma Jelo.”
 
     jan Towesi li pilin insa lon tenpo lili. ni la, ona li toki: “taso jan Me li toki e ni tawa mi. jan ale pi wawa nasa li moli lon tenpo pini suli a!”
 

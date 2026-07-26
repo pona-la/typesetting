@@ -16,6 +16,7 @@
     "../illustrations/1.jpg",
     width: page_width,
     height: page_height,
+    fit: "contain",
   ))
 
   pagebreak()
@@ -49,7 +50,12 @@
   )
   placed(
     bottom + right,
-    box(width: 17%, height: 23%),
+    box(width: 18%, height: 22%),
+  )
+
+  placed(
+    bottom + right,
+    box(width: 100%, height: 5%),
   )
 
   container()
@@ -65,39 +71,41 @@
     "../illustrations/1b.jpg",
     width: page_width * 0.85,
     height: page_height * 0.85,
+    fit: "contain",
   ))
-  // TODO style this better, probs make a function so you don't gotta copy paste all this
-  placed(left + bottom, dx: 0mm, dy: 10mm, box(width: 115mm)[#align(
+  // Dxt
+  placed(left + bottom, dx: 0mm, dy: 5mm, box(width: 115mm)[#align(
     center,
-  )[_"ona li kama luka e nena kute pi soweli Toto."_]])
+  )[#text(fill: navy, size: 10pt)[_"ona li kama luka e nena kute pi soweli Toto."_]]])
   pagebreak()
 
   // Blank page
   pagebreak()
 
   // Illustration of grey Enwi and Me
-  placed(left + top, dx: -margin_side, dy: -margin_top, boundary: contour.phantom(), image(
+  placed(left + bottom, dx: -margin_side, dy: -12mm, boundary: contour.phantom(), image(
     "../illustrations/1c.jpg",
     width: page_width,
     height: page_height,
+    fit: "contain",
   ))
 
   // Collision boxes for the illustration
   placed(
     bottom + right,
-    box(width: 15%, height: 70%),
+    box(width: 20%, height: 60%),
   )
   placed(
     bottom + right,
-    box(width: 30%, height: 64%),
+    box(width: 33%, height: 55%),
   )
   placed(
     bottom + right,
-    box(width: 48%, height: 33%),
+    box(width: 49%, height: 25%),
   )
   placed(
     bottom + right,
-    box(width: 59%, height: 11%),
+    box(width: 55%, height: 3%),
   )
 
   header()
@@ -117,6 +125,7 @@
     "../illustrations/1d.jpg",
     width: page_width,
     height: page_height,
+    fit: "cover",
   ))
 
   header()
