@@ -7,3 +7,6 @@
 
 #include "chapters/2.typ"
 // #pagebreak(to: "odd")
+
+
+#include "chapters/3.typ"
