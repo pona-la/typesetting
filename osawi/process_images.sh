@@ -44,5 +44,15 @@ cp ${images_dir}i051.jpg illustrations/4b.jpg
 didder -i "${images_dir}i055_edit.jpg" -o illustrations/4c.png --contrast -20% --brightness 10% -p "$blue_palette" -r "$blue_recolor" $base_settings
 didder -i "${images_dir}i057.jpg" -o illustrations/4d.png --contrast -20% --brightness 10% -p "$blue_palette" -r "$blue_recolor" $base_settings
 
+echo Chapter Five
+didder -i "${images_dir}i059.jpg" -o illustrations/5.png --contrast -10% --brightness 5% -p "$blue_palette" -r "$blue_recolor" $base_settings
+didder -i "${images_dir}i061_edit.jpg" -o illustrations/5a.png --contrast -10% --brightness 5% -p "$blue_palette" -r "$blue_recolor" $base_settings
+didder -i "${images_dir}i063_edit.jpg" -o illustrations/5b.png --contrast -10% --brightness 5% -p "$blue_palette" -r "$blue_recolor" $base_settings
+cp ${images_dir}i065_edit.jpg illustrations/5c.jpg
+didder -i "${images_dir}i068_edit.jpg" -o illustrations/5d.png --contrast -10% --brightness 5% -p "$blue_palette" -r "$blue_recolor" $base_settings
+didder -i "${images_dir}i070_edit.jpg" -o illustrations/5e.png --contrast -10% --brightness 5% -p "$blue_palette" -r "$blue_recolor" $base_settings
+didder -i "${images_dir}i071_edit.jpg" -o illustrations/5f.png --contrast -10% --brightness 5% -p "$blue_palette" -r "$blue_recolor" $base_settings
+
+
 echo Done!
 
