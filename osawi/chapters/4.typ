@@ -13,7 +13,7 @@
 
   // Chapter opening page
   placed(left + top, dx: -10mm, dy: -16mm, boundary: contour.phantom(), image(
-    "../illustrations/4.jpg",
+    "../illustrations/4.png",
     width: page_width * 0.98,
     height: page_height * 0.98,
     fit: "contain",
@@ -24,7 +24,7 @@
 
   // Chapter drop cap "When"
   placed(top + center, dx: -20mm, dy: -22mm, boundary: contour.phantom(), image(
-    "../illustrations/4a.jpg",
+    "../illustrations/4a.png",
     width: page_width * 1.05,
     height: page_height * 1.05,
     fit: "contain",
@@ -87,7 +87,7 @@
 
   // Illustration of scarecrow and crows
   placed(left + bottom, dx: -margin_side, dy: margin_bottom - 41mm, boundary: contour.phantom(), image(
-    "../illustrations/4c.jpg",
+    "../illustrations/4c.png",
     width: page_width * 1.02,
     height: page_height * 1.02,
     fit: "contain",
@@ -109,7 +109,7 @@
 
   // Little house illustration
   placed(center + bottom, dx: 0mm, dy: margin_bottom, boundary: contour.phantom(), image(
-    "../illustrations/4d.jpg",
+    "../illustrations/4d.png",
     width: page_width * 0.7,
     height: page_height * 0.7,
     fit: "contain",

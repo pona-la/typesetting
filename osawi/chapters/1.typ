@@ -13,7 +13,7 @@
 
   // Chapter opening page
   placed(left + top, dx: -margin_side, dy: -margin_top, boundary: contour.phantom(), image(
-    "../illustrations/1.jpg",
+    "../illustrations/1.png",
     width: page_width,
     height: page_height,
     fit: "contain",
@@ -26,7 +26,7 @@
   // TODO create an image placement wrapper function
   // so it's easier to adjust placement.
   placed(horizon + center, dx: 0mm, dy: -margin_top, boundary: contour.phantom(), image(
-    "../illustrations/1a.jpg",
+    "../illustrations/1a.png",
     width: page_width * 0.9,
     height: page_height * 0.9,
   ))
@@ -84,7 +84,7 @@
 
   // Illustration of grey Enwi and Me
   placed(left + bottom, dx: -margin_side, dy: -12mm, boundary: contour.phantom(), image(
-    "../illustrations/1c.jpg",
+    "../illustrations/1c.png",
     width: page_width,
     height: page_height,
     fit: "contain",
@@ -122,7 +122,7 @@
 
   // Towesi in the storm
   placed(left + top, dx: -margin_side, dy: -margin_top, boundary: contour.phantom(), image(
-    "../illustrations/1d.jpg",
+    "../illustrations/1d.png",
     width: page_width,
     height: page_height,
     fit: "cover",

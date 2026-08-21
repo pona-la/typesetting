@@ -17,13 +17,21 @@ I'm working on a MVP pass of just laying out all the images and setting up the b
 - Wikisource has a high resolution scan of the book, good for reference of formatting/page layout: https://en.wikisource.org/wiki/Index:Baum_-_The_Wonderful_Wizard_of_Oz.djvu.
 - Gutenberg has scans of all the illustrations, which look pretty good! They're a bit low-res but what can ya do, future thing to solve, perhaps: https://www.gutenberg.org/ebooks/43936.
 
-## Illustration Colour Scheme
+## Illustrations
 
-Only a limited number of inks are used throughout the illustrations, with use of hatching for intermediate shades. We perhaps don't like the colours that the Gutenberg scans use (they don't look super accurate to me!), so below are like,, some ideal colours?
+The trickiest part here, if we want to be up to snuff, is restoring all the ~148 illustrations in high resolution. What's particularly tricky is that many, if not most of them, have a bunch of elements behind the text block, which are very time-consuming and difficult to extract by hand!
 
-(idk this is still work in progress - would love perhaps a method to make images use specific colours smoothly via commandline.)
+There are high resolution scans out there, (such as this one: https://www.loc.gov/item/03032405/), but we'd have to somehow extract the illustrations from behind the text block, as well as some trivial alignment work (multiplied by 150ish).
 
-(maybe the angle here is something like [colorgram](https://github.com/obskyr/colorgram.py) to extract 3 colours, and then something like [didder](https://github.com/makew0rld/didder) (with a low strength value) to recolour them, but perhaps there's a better-suited tool than posterisation)
+Gutenberg has illustrations that have been extracted from behind the text, though it's roughly clone-brushed, the colours are very inaccurate, and they're like 100dpi.
+
+Wikisource has a few illustrations restored wonderfully, but only a few - the wikisource project for the Wizard of Oz has been blocked on illustration restoration for like 4-6 years, it looks like.
+
+Saving this problem for later on in the project, as it costs little to delay, but the best plan we've thought of is using a high resolution scan, aligning and recolouring it, and then making selective use of a generative fill tool to remove the text from in front of the illustration. Since a new text block will be going back right on top, there should hopefully be very minimal visible artifacting.
+
+<!-- ### Colour Scheme
+
+Only a limited number of inks are used throughout the illustrations, with use of hatching for intermediate shades. We perhaps don't like the colours that the Gutenberg scans use (they don't look super accurate to me!), so below are like,, some potential ideal colours?
 
 | Color      | Hex Code  |
 | ---------- | --------- |
@@ -37,9 +45,9 @@ Only a limited number of inks are used throughout the illustrations, with use of
 | Green      | #a8d667   |
 | Brown      | #984931   |
 
-(An additional orange might be needed for the west, but perhaps yellow will do! Still working through the book)
+(An additional orange might be needed for the west, but perhaps yellow will do! Still working through the book) -->
 
-## Illustration TODOS:
+<!-- ## Illustration TODOS:
 
 ### Chapter 1:
 
@@ -48,7 +56,7 @@ Only a limited number of inks are used throughout the illustrations, with use of
 
 ### Chapter 2:
 
-- Replace text on chapter splash. (Including on chalkboard.)
+- Replace text on chapter splash. (Including on chalkboard.) -->
 
 ## Licensing
 

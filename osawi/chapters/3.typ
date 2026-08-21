@@ -13,7 +13,7 @@
 
   // Chapter opening page
   placed(left + top, dx: -3mm, dy: -10mm, boundary: contour.phantom(), image(
-    "../illustrations/3.jpg",
+    "../illustrations/3.png",
     width: page_width * 0.85,
     height: page_height * 0.85,
   ))
@@ -23,7 +23,7 @@
 
   // Chapter drop cap "When"
   placed(top + center, dx: -6mm, dy: -40mm, boundary: contour.phantom(), image(
-    "../illustrations/3a.jpg",
+    "../illustrations/3a.png",
     width: page_width * 0.9,
     height: page_height * 0.9,
     fit: "contain",
@@ -53,7 +53,7 @@
 
   // bottom-right image, weird house
   placed(bottom + right, dx: -margin_side - 1mm, dy: -5mm, boundary: contour.phantom(), image(
-    "../illustrations/3b.jpg",
+    "../illustrations/3b.png",
     width: page_width * 1.02,
     height: page_height * 1.02,
     fit: "contain",
@@ -94,7 +94,7 @@
 
   // Illustration of munchkins
   placed(bottom + right, dx: margin_side, dy: margin_bottom, boundary: contour.phantom(), image(
-    "../illustrations/3d.jpg",
+    "../illustrations/3d.png",
     width: page_width * 0.6,
     height: page_height * 0.6,
     fit: "contain",
@@ -140,7 +140,7 @@
 
   // Illustration of shoes under house
   placed(left + bottom, dx: -margin_side, dy: margin_bottom + 5mm, boundary: contour.phantom(), image(
-    "../illustrations/3f.jpg",
+    "../illustrations/3f.png",
     width: page_width * 0.9,
     height: page_height * 0.9,
     fit: "contain",

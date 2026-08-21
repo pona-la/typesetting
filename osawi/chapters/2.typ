@@ -13,7 +13,7 @@
 
   // Chapter opening page
   placed(left + top, dx: -3mm, dy: -15mm, boundary: contour.phantom(), image(
-    "../illustrations/2.jpg",
+    "../illustrations/2.png",
     width: page_width * 0.85,
     height: page_height * 0.85,
   ))
@@ -23,7 +23,7 @@
 
   // Chapter drop cap "She"
   placed(horizon + center, dx: -3mm, dy: -15mm, boundary: contour.phantom(), image(
-    "../illustrations/2a.jpg",
+    "../illustrations/2a.png",
     width: page_width * 0.85,
     height: page_height * 0.85,
   ))
@@ -68,7 +68,7 @@
 
   // Illustration of munchkins
   placed(left + top, dx: -1mm, dy: -12mm, boundary: contour.phantom(), image(
-    "../illustrations/2c.jpg",
+    "../illustrations/2c.png",
     width: page_width * 0.85,
     height: page_height * 0.85,
     fit: "contain",
@@ -90,7 +90,7 @@
 
   // Illustration of shoes under house
   placed(left + bottom, dx: -margin_side + 5mm, dy: 25mm, boundary: contour.phantom(), image(
-    "../illustrations/2d.jpg",
+    "../illustrations/2d.png",
     width: page_width,
     fit: "contain",
   ))
@@ -119,7 +119,7 @@
 
   // Towesi holding the shoes
   placed(top + right, dx: margin_side, dy: -20mm, boundary: contour.phantom(), image(
-    "../illustrations/2e.jpg",
+    "../illustrations/2e.png",
     width: page_width * 0.55,
     fit: "contain",
   ))
@@ -140,7 +140,7 @@
 
   // Witch's chalkboard
   placed(bottom + left, dx: -margin_side, dy: margin_bottom, boundary: contour.phantom(), image(
-    "../illustrations/2f.jpg",
+    "../illustrations/2f.png",
     width: page_width,
     fit: "cover",
   ))
@@ -160,7 +160,7 @@
 
   // Witch disappears
   placed(top + left, dx: -22mm, dy: -17mm, boundary: contour.phantom(), image(
-    "../illustrations/2g.jpg",
+    "../illustrations/2g.png",
     width: page_width * 0.95,
     height: page_height * 0.95,
     fit: "contain",
